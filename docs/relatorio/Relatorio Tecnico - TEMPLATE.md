@@ -115,8 +115,6 @@
  
 ## Personas, Empatia e Proposta de Valor
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
 
 > As personas levantadas durante o processo de entendimento do problema são apresentadas nas Figuras que se seguem.
 > 
@@ -132,15 +130,18 @@
 > - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
 > - [Canvas da Proposta de Valor](https://analistamodelosdenegocios.com.br/canvas-da-proposta-de-valor/)
 > 
-> 
-> ** Persona 1 **
-> 
-> ![Persona 1](images/1.png)
->
-> ** Persona 2 **
->
-> ![Persona 2](images/2.png)
->
+>.                     
+
+** Persona 1 **
+                           
+![Persona 1](images/1.png)
+
+** Persona 2 **
+
+         
+![Persona 2](images/2.png)
+ 
+ 
 > Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 >
 > **Exemplo de Proposta de Valor**
