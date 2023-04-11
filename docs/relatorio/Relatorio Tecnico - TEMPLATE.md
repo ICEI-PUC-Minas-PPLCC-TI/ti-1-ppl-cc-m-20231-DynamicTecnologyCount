@@ -1,9 +1,9 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
+CHICKCOUNT  
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-`CURSO` 
+CIÊNCIA DA COMPUTAÇÃO 
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
