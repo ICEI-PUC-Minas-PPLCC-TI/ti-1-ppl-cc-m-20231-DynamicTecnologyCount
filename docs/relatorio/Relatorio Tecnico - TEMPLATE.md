@@ -131,21 +131,22 @@
 > - [Canvas da Proposta de Valor](https://analistamodelosdenegocios.com.br/canvas-da-proposta-de-valor/)
 > 
 >.                     
-
-** Persona 1 **
-                           
-![Persona 1](images/1.png)
-
-** Persona 2 **
-
-         
-![Persona 2](images/2.png)
- 
- 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 >
-> **Exemplo de Proposta de Valor**
-> ![Exemplo da Proposta de Valor](images/proposta_valor.png)
+> # ** PERSONA 1 **
+>                           
+> ![Persona 1](images/1.png)
+> 
+> ![Persona 1 resto](images/22.png)
+>
+> # ** PERSONA 2 **
+>
+>         
+> ![Persona 2](images/2.png)
+> 
+> ![Persona 2 resto](images/33.png)
+> 
+> 
+> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 
 
 ## Histórias de Usuários
