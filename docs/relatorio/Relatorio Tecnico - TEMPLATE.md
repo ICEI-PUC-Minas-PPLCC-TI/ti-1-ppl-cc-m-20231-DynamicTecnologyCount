@@ -1,21 +1,21 @@
 # Informações do Projeto
 ## Nome do Projeto  
 
-......  CHICKCOUNT  ......
+         CHICKCOUNT
 
 ## Curso 
 
-......  CIÊNCIAS DA COMPUTAÇÃO ......
+         CIÊNCIAS DA COMPUTAÇÃO 
 
 ## Participantes
 
-> Integrantes:
-> - Ana Carolina Couto Machado 
-> - Arthur Oliveira Santos 
-> - Davi Oliveira Sad
-> - Felipe Castro Barbosa Ladeia
-> - Matheus Fagundes Araujo
-> - Pedro Henrique Magno Gonçalves
+    Integrantes:
+    - Ana Carolina Couto Machado 
+    - Arthur Oliveira Santos 
+    - Davi Oliveira Sad
+    - Felipe Castro Barbosa Ladeia
+    - Matheus Fagundes Araujo
+    - Pedro Henrique Magno Gonçalves
 
 # Estrutura do Documento
 
@@ -54,19 +54,19 @@
 
 # Introdução
 
-> No Brasil 1 em 4 startups acabam oferecendo algum fruto futuro, enquanto as demais acabam ruindo devido a uma má gestão o que impacta em um baixo aproveitamento das mesmas, portanto este trabalho tem como objetivo auxiliar futuras possíveis empresas, bem como as já existentes.
->
-> Paralelo a era digital e o contexto da pandemia, muitas empresas acabam fechando suas portas por não conseguirem se manter no mercado devido a inúmeros fatores como a gestão de tempo, gestão de pessoas, a parte financeira dentre muitos outros que foram responsáveis por culminar em uma queda nas vendas e finalmente no fechamento das empresas. Tendo este cenário de ampla ruína é percetível que algo pode ser feito para facilitar e ajudar na administração das tarefas que são responsáveis por gerar uma queda financeira.
->
-> Perante isso, torna-se fundamental que existam meios de resolver algumas senão todas as problemáticas que uma empresa apresenta. Assim, o foco desta pesquisa está relacionado com um dos hospitais da rede HAPVIDA que tem problemas na gestão de funcionários com  foco no sistema de headcount.
+ No Brasil 1 em 4 startups acabam oferecendo algum fruto futuro, enquanto as demais acabam ruindo devido a uma má gestão o que impacta em um baixo aproveitamento das mesmas, portanto este trabalho tem como objetivo auxiliar futuras possíveis empresas, bem como as já existentes.
+
+ Paralelo a era digital e o contexto da pandemia, muitas empresas acabam fechando suas portas por não conseguirem se manter no mercado devido a inúmeros fatores como a gestão de tempo, gestão de pessoas, a parte financeira dentre muitos outros que foram responsáveis por culminar em uma queda nas vendas e finalmente no fechamento das empresas. Tendo este cenário de ampla ruína é percetível que algo pode ser feito para facilitar e ajudar na administração das tarefas que são responsáveis por gerar uma queda financeira.
+
+ Perante isso, torna-se fundamental que existam meios de resolver algumas senão todas as problemáticas que uma empresa apresenta. Assim, o foco desta pesquisa está relacionado com um dos hospitais da rede HAPVIDA que tem problemas na gestão de funcionários com  foco no sistema de headcount.
 
 ## Problema
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> Conforme exposto, o problema que se busca resolver com este projeto é a dificuldade que as empresas têm de fazerem uma gestão adequada de pessoas durante o período de trabalho de seus funcionários. O setor escolhido de trabalho foi hospitais que tem uma grande dificuldade em saber a quantidade de enfermeiros e técnicos de enfermagem necessários para atender as demandas diárias do estabelecimento (headcount).
-> 
->
+ Conforme exposto, o problema que se busca resolver com este projeto é a dificuldade que as empresas têm de fazerem uma gestão adequada de pessoas durante o período de trabalho de seus funcionários. O setor escolhido de trabalho foi hospitais que tem uma grande dificuldade em saber a quantidade de enfermeiros e técnicos de enfermagem necessários para atender as demandas diárias do estabelecimento (headcount).
+ 
+
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
@@ -74,11 +74,9 @@
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ O objetivo geral deste trabalho é criar um aplicativo de gestão de pessoas e horários que apresentem cálculos matemáticos para informar ao gestor a quantidade de enfermeiros e técnicos de enfermagem necessários, bem como o gasto total com seus salários.
 
-> O objetivo geral deste trabalho é criar um aplicativo de gestão de pessoas e horários que apresentem cálculos matemáticos para informar ao gestor a quantidade de enfermeiros e técnicos de enfermagem necessários, bem como o gasto total com seus salários.
->
-> Como objetivos específicos, podemos ressaltar:
+ Como objetivos específicos, podemos ressaltar:
 >
 >- Fornecer um banco de dados que será preenchido pelo gestor para que seja organizado os horários.
 >- Fornecer a quantidade ideal de funcionários que atenderam a demanda do estabelecimento baseado em cálculos matemáticos.
@@ -89,37 +87,32 @@
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ Devido ao interesse do grupo em relação ao funcionamento de uma empresa a partir dos funcionários até os maiores cargos, surgiu-se a ideia de abordar tal temática para sanar as dúvidas existentes.
+ 
+ Mutuamente, grande parte dos integrantes do grupo tem algum tipo de relação direta, seja ela familiar ou por amizades, sobre algum tipo de empresa, mas um conhecimento básico sobre as mesmas.
+ 
+ Portanto a área de interesse escolhida pelo grupo foi a saúde, devido ao baixo leque de conhecimento acerca da área e pela oportunidade de aprender e adquirir novas habilidades com este projeto.
+ 
 
-> Devido ao interesse do grupo em relação ao funcionamento de uma empresa a partir dos funcionários até os maiores cargos, surgiu-se a ideia de abordar tal temática para sanar as dúvidas existentes.
-> 
-> Mutuamente, grande parte dos integrantes do grupo tem algum tipo de relação direta, seja ela familiar ou por amizades, sobre algum tipo de empresa, mas um conhecimento básico sobre as mesmas.
-> 
-> Portanto a área de interesse escolhida pelo grupo foi a saúde, devido ao baixo leque de conhecimento acerca da área e pela oportunidade de aprender e adquirir novas habilidades com este projeto.
-> 
->
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
->Embora grande parte dos enfermeiros irão se beneficiar com a implantação da aplicação, o foco deste trabalho é ajudar na gestão de pessoas do hospital, que como exposto acima não é eficiente e apresenta uma grande dor no setor hospitalar mapeado pelas entrevistas feitas pelo grupo.
->
->Desta forma, estabeleceu-se como público-alvo desta solução os homens e as mulheres entre 40 e 50 que gerenciam hospitais, tendo frequentemente problemas de contratação e alocação de enfermeiros.
-> 
+ Embora grande parte dos enfermeiros irão se beneficiar com a implantação da aplicação, o foco deste trabalho é ajudar na gestão de pessoas do hospital, que como exposto acima não é eficiente e apresenta uma grande dor no setor hospitalar mapeado pelas entrevistas feitas pelo grupo.
+
+ Desta forma, estabeleceu-se como público-alvo desta solução os homens e as mulheres entre 40 e 50 que gerenciam hospitais, tendo frequentemente problemas de contratação e alocação de enfermeiros.
+ 
 > **Links Úteis**:
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
 > - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feito pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
->
->
+ A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feito pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
+ 
+ 
 ## Personas, Empatia e Proposta de Valor
 
 ......  COLOQUE AQUI O SEU TEXTO ......
@@ -140,10 +133,14 @@
 > - [Canvas da Proposta de Valor](https://analistamodelosdenegocios.com.br/canvas-da-proposta-de-valor/)
 > 
 > 
-> **Exemplo de Persona**
+> ** Persona 1 **
 > 
-> ![Exemplo de Persona](images/persona.png)
-> 
+> ![Persona 1](images/Screenshot_2.png)
+>
+> ** Persona 2 **
+>
+> ![Persona 2](images/Screenshot_3.png)
+>
 > Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 >
 > **Exemplo de Proposta de Valor**
@@ -165,7 +162,17 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |Rogério  | Evitar ter enfermeiros trabalhando com hora extra.           | Diminuir gastos.               |
 |Carla       | Menor pressão no trabalho.                 | Poder pensar melhor para atender melhor. |
 
-> Por meio das 
+
+
+> - Headcount:
+> 
+> Responsável por administrar quantas pessoas devem estar em determinada área do hospital, mas o sistema que gere este tópico apresenta muitas falhas que podem impactar no mau atendimento dos pacientes e em um gasto excessivo.
+> - Escala de Fugulin:
+> 
+> Foi criada para determinar o nível de “risco” que um paciente apresenta e assim pode se decidir quantos enfermeiros um paciente precisa dentro do hospital.
+> - Tempo de serviço:
+> 
+> Principalmente os enfermeiros (as) são prejudicados com os horários devido às horas extras que acabam não sendo opcionais, mas sim obrigatórias devido a dificuldades encontradas no headcount. Assim muitos funcionários ficam longas horas longe de suas famílias e não tem tempo para praticar alguns de seus hobbies.
 >
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
@@ -173,7 +180,7 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades de interação dos gestores e dos enfermeiros, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir...
 
 ### Requisitos Funcionais
 
