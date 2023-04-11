@@ -135,11 +135,11 @@
 > 
 > ** Persona 1 **
 > 
-> ![Persona 1](images/Screenshot_2.png)
+> ![Persona 1](images/1.png)
 >
 > ** Persona 2 **
 >
-> ![Persona 2](images/Screenshot_3.png)
+> ![Persona 2](images/2.png)
 >
 > Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 >
