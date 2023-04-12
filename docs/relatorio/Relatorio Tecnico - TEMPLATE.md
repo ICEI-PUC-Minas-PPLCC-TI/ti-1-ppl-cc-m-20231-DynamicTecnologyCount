@@ -203,6 +203,7 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| O site deve calcular a quantidade de enfermeiros necessarios baseado na entrada de dados das informacoes dos gestores e dos bacientes usando a escala de fugulin. |  ALTA | 
+|RNF-003| O sistema deve calcular o quanto será economizado, considerando o que é gasto atualmente e o que será gasto com o resultado do site.| ALTA |
 
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
