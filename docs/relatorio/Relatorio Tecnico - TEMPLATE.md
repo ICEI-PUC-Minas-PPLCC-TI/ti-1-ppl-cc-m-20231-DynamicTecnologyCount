@@ -266,12 +266,12 @@ O grupo começou desenvolvendo a matriz CSD e o mapa de stakeholders. Tendo mape
 
 Tendo um melhor entendimento do problema e das dores dos afetados, criamos personas e propostas de valor com o intuito de materializar as ideias, dores e problemas. Depois disso, partimos para o brainstorm, elegemos as melhores ideias e as levamos para o mural de possibilidades. Discutimos e escolhemos a melhor ideia, que é agora a solução a ser desenvolvida. 
 
-Houve também reuniões diárias para mapear o que havia sido feito no dia anterior, e o que será feito no próximo dia.
+Ferramentas utilizadas:
 
-Ferramentas utilizadas: Discord (para as reuniões)
-                        Miro (para o Design Thinking)
-                        Bitrix24 (para divisão de tarefas)
-                        (COMPLETA AI COM OQ FALTA SE FALTOU ALGO)
+- Discord (para as reuniões)
+- Miro (para o Design Thinking)
+- Bitrix24 (para divisão de tarefas)
+- GitHub (para editar projetos)
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
