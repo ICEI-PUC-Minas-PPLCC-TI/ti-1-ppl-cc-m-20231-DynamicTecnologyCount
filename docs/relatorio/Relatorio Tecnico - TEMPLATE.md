@@ -262,7 +262,14 @@ Aqui está os wireframes do projeto
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O grupo começou desenvolvendo a matriz CSD e o mapa de stakeholders. Tendo mapeado as certezas, incertezas e suposições sobre o problema, assim como as pessoas e instituições mais importantes, conduzimos as entrevistas qualitativas. Entrevistamos o diretor regional e a gerente de enfermagem de uma empresa de hospitais chamada HapVida. Até esse ponto todos do grupo participaram de todas as etapas. A partir desse momento, houve reuniões diárias para desenvolvimento do projeto, e quem estivesse disponível comparecia e desenvolvia parte do projeto. 
+Tendo um melhor entendimento do problema e das dores dos afetados, criamos personas e propostas de valor com o intuito de materializar as ideias, dores e problemas. Depois disso, partimos para o brainstorm, elegemos as melhores ideias e as levamos para o mural de possibilidades. Discutimos e escolhemos a melhor ideia, que é agora a solução a ser desenvolvida. 
+
+Houve também reuniões diárias para mapear o que havia sido feito no dia anterior, e o que será feito no próximo dia.
+
+Ferramentas utilizadas: Discord (para as reuniões)
+                        Miro (para o Design Thinking)
+                        Bitrix24 (para divisão de tarefas)
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
@@ -282,7 +289,7 @@ Aqui está os wireframes do projeto
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
