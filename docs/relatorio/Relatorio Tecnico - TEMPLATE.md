@@ -188,8 +188,11 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O site deve informar ao gestor quantos enfermeiros o hospital necessita baseando-se na quantidade de pacientes e na escala de fugulin. | ALTA | 
+|RF-002| O site deverá mostrar os gastos com enfermeiros para o gestor. | ALTA |
+|RF-003| O site deverá ter um login que separa gestores e enfermeiros para assim adicionar futuras features para os enfermeiros. | BAIXA |
+
+
 
 
 ### Requisitos não Funcionais
