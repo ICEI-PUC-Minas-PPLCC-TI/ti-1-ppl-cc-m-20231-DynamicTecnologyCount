@@ -218,7 +218,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  O website havera um login para o gestor, na aba do gestor tera um campo onde ele entrara com dados sobre enfermieros e pacientes. Apos preenchido, o site informará para o gestor os gastos atuais, e calculara e apresentará uma configuração de enfermeiros mais eficiente e seu cusdo usando um algorítmo matemático para a realização do mesmo. ......
+O website havera um login para o gestor, na aba do gestor tera um campo onde ele entrara com dados sobre enfermieros e pacientes. Apos preenchido, o site informará para o gestor os gastos atuais, e calculara e apresentará uma configuração de enfermeiros mais eficiente e seu cusdo usando um algorítmo matemático para a realização do mesmo.
 
 
 ## User Flow
@@ -242,7 +242,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+Aqui está os wireframes do projeto
 
 > Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
 > estrutura de um site web e seu relacionamentos entre suas
