@@ -270,6 +270,7 @@ Houve também reuniões diárias para mapear o que havia sido feito no dia anter
 Ferramentas utilizadas: Discord (para as reuniões)
                         Miro (para o Design Thinking)
                         Bitrix24 (para divisão de tarefas)
+                        (COMPLETA AI COM OQ FALTA SE FALTOU ALGO)
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
