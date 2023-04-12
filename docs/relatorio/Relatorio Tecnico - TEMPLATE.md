@@ -214,12 +214,23 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
+|03| Não pode resolver o problema de só uma persona        |
+|04| Regulamentos e leis: O primeiro ponto a considerar é que um hospital está sujeito a diversas regulamentações e leis que regem sua operação. É importante garantir que todas as mudanças propostas estejam em conformidade com essas regulamentações.      |
+|05| Orçamento: É importante trabalhar dentro do orçamento definido para o projeto. As mudanças propostas devem ser realistas e viáveis dentro das restrições financeiras existentes.       |
+|06| Disponibilidade de recursos: Recursos como espaço, equipamentos e pessoal precisam ser considerados. É importante garantir que o hospital tenha o espaço e os equipamentos necessários para atender às necessidades dos pacientes.       |
+|07| Qualificação dos funcionários: A equipe médica e de enfermagem do hospital deve ter a qualificação necessária para trabalhar nas áreas designadas. É importante garantir que a equipe tenha as habilidades e conhecimentos adequados para as funções que irão desempenhar.       |
+|08| Viabilidade técnica: As mudanças propostas devem ser tecnicamente viáveis. É importante garantir que a infraestrutura do hospital possa suportar as mudanças propostas e que não haja impactos negativos nas operações diárias do hospital.|
+|09| Tempo: O projeto deve ser concluído dentro de um período de tempo razoável. É importante garantir que as mudanças propostas possam ser implementadas em um prazo realista e que não haja impactos negativos nas operações diárias do hospital durante o processo de implementação. |
 
 
 # Projeto de Interface
 
-O website havera um login para o gestor, na aba do gestor tera um campo onde ele entrara com dados sobre enfermieros e pacientes. Apos preenchido, o site informará para o gestor os gastos atuais, e calculara e apresentará uma configuração de enfermeiros mais eficiente e seu cusdo usando um algorítmo matemático para a realização do mesmo.
+......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
 
+> Apresente as principais interfaces da solução. Discuta como 
+> foram elaboradas de forma a atender os requisitos funcionais, não
+> funcionais e histórias de usuário abordados nas [Especificações do
+> Projeto](#especificações-do-projeto).
 
 ## User Flow
 
@@ -242,7 +253,7 @@ O website havera um login para o gestor, na aba do gestor tera um campo onde ele
 
 ## Wireframes
 
-Aqui está os wireframes do projeto
+......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
 
 > Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
 > estrutura de um site web e seu relacionamentos entre suas
@@ -262,16 +273,7 @@ Aqui está os wireframes do projeto
 
 # Metodologia
 
-O grupo começou desenvolvendo a matriz CSD e o mapa de stakeholders. Tendo mapeado as certezas, incertezas e suposições sobre o problema, assim como as pessoas e instituições mais importantes, conduzimos as entrevistas qualitativas. Entrevistamos o diretor regional e a gerente de enfermagem de uma empresa de hospitais chamada HapVida. Até esse ponto todos do grupo participaram de todas as etapas. A partir desse momento, houve reuniões diárias para desenvolvimento do projeto, e quem estivesse disponível comparecia e desenvolvia parte do projeto.
-
-Tendo um melhor entendimento do problema e das dores dos afetados, criamos personas e propostas de valor com o intuito de materializar as ideias, dores e problemas. Depois disso, partimos para o brainstorm, elegemos as melhores ideias e as levamos para o mural de possibilidades. Discutimos e escolhemos a melhor ideia, que é agora a solução a ser desenvolvida. 
-
-Ferramentas utilizadas:
-
-- Discord (para as reuniões)
-- Miro (para o Design Thinking)
-- Bitrix24 (para divisão de tarefas)
-- GitHub (para editar projetos)
+......  COLOQUE AQUI O SEU TEXTO ......
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
@@ -291,7 +293,7 @@ Ferramentas utilizadas:
 
 ## Divisão de Papéis
 
-
+......  COLOQUE AQUI O SEU TEXTO ......
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
@@ -306,8 +308,8 @@ Ferramentas utilizadas:
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro | https://miro.com/app/board/uXjVMYD9yI0=/ | 
-|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-20231-chickcount/tree/master/codigo | 
+|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
+|Repositório de código | GitHub | https://github.com/XXXXXXX | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
 |Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
 
