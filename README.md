@@ -5,7 +5,7 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 ## Alunos integrantes da equipe
 
 * Ana Carolina Machado
-* Arthur Santos
+* Arthur Oliveira Santos
 * Davi Oliveira Sad
 * Felipe Castro
 * Matheus Fagundes Araujo
