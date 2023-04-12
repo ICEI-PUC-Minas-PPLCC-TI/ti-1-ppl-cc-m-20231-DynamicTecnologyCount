@@ -190,7 +190,9 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 |------|-----------------------------------------|----|
 |RF-001| O site deve informar ao gestor quantos enfermeiros o hospital necessita baseando-se na quantidade de pacientes e na escala de fugulin. | ALTA | 
 |RF-002| O site deverá mostrar os gastos com enfermeiros para o gestor. | ALTA |
-|RF-003| O site deverá ter um login que separa gestores e enfermeiros para assim adicionar futuras features para os enfermeiros. | BAIXA |
+|RF-003| O site devera ter uma aba para o gestor entrar com os dados dos enfermeiros e pacientes. |  ALTA |
+|RF-004| O site deverá ter um login que separa gestores e enfermeiros para assim adicionar futuras features para os enfermeiros. | BAIXA |
+
 
 
 
@@ -200,7 +202,8 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-002| O site deve calcular a quantidade de enfermeiros necessarios baseado na entrada de dados das informacoes dos gestores e dos bacientes usando a escala de fugulin. |  ALTA | 
+
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
