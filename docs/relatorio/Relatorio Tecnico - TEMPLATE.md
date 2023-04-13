@@ -308,10 +308,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Processo de Design Thinkgin  | Miro | https://miro.com/app/board/uXjVMYD9yI0=/| 
+|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-20231-chickcount| 
+|Hospedagem do site |  |   | 
+|Protótipo Interativo | MavelApp | https://marvelapp.com/whiteboard/yRuw6FuNNw9gok27Czjw | 
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
