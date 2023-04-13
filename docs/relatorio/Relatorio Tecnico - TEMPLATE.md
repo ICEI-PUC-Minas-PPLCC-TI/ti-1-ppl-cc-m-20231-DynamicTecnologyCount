@@ -62,15 +62,8 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
  Conforme exposto, o problema que se busca resolver com este projeto é a dificuldade que as empresas têm de fazerem uma gestão adequada de pessoas durante o período de trabalho de seus funcionários. O setor escolhido de trabalho foi hospitais que tem uma grande dificuldade em saber a quantidade de enfermeiros e técnicos de enfermagem necessários para atender as demandas diárias do estabelecimento (headcount).
- 
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
@@ -81,9 +74,7 @@
 >- Fornecer um banco de dados que será preenchido pelo gestor para que seja organizado os horários.
 >- Fornecer a quantidade ideal de funcionários que atenderam a demanda do estabelecimento baseado em cálculos matemáticos.
 >- Um campo individual para cada funcionário ver seu horário e destino no trabalho.
->
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+
 
 ## Justificativa
 
@@ -94,19 +85,12 @@
  Portanto a área de interesse escolhida pelo grupo foi a saúde, devido ao baixo leque de conhecimento acerca da área e pela oportunidade de aprender e adquirir novas habilidades com este projeto.
  
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
 ## Público-Alvo
 
 
  Embora grande parte dos enfermeiros irão se beneficiar com a implantação da aplicação, o foco deste trabalho é ajudar na gestão de pessoas do hospital, que como exposto acima não é eficiente e apresenta uma grande dor no setor hospitalar mapeado pelas entrevistas feitas pelo grupo.
 
  Desta forma, estabeleceu-se como público-alvo desta solução os homens e as mulheres entre 40 e 50 que gerenciam hospitais, tendo frequentemente problemas de contratação e alocação de enfermeiros.
- 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
  
 # Especificações do Projeto
 
@@ -115,20 +99,6 @@
  
 ## Personas, Empatia e Proposta de Valor
 
-
-> As personas levantadas durante o processo de entendimento do problema são apresentadas nas Figuras que se seguem.
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> - [Canvas da Proposta de Valor](https://analistamodelosdenegocios.com.br/canvas-da-proposta-de-valor/)
 > 
 >.                     
 >
@@ -176,9 +146,6 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 > 
 > Principalmente os enfermeiros (as) são prejudicados com os horários devido às horas extras que acabam não sendo opcionais, mas sim obrigatórias devido a dificuldades encontradas no headcount. Assim muitos funcionários ficam longas horas longe de suas famílias e não tem tempo para praticar alguns de seus hobbies.
 >
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 ## Requisitos
 
