@@ -271,7 +271,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
@@ -279,6 +278,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-20231-chickcount| 
 |Hospedagem do site |  |   | 
 |Protótipo Interativo | MavelApp | https://marvelapp.com/whiteboard/yRuw6FuNNw9gok27Czjw | 
+|Editor de Código| VSCode | |
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
