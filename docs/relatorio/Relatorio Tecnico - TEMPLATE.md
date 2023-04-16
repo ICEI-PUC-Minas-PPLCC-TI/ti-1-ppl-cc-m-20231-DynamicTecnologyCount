@@ -279,6 +279,7 @@ Pensamos em formas de conseguir realizar a proposta feita nas especificações d
 |Hospedagem do site |  |   | 
 |Protótipo Interativo | MavelApp | https://marvelapp.com/whiteboard/yRuw6FuNNw9gok27Czjw | 
 |Editor de Código| VSCode | |
+|Divisão de Tarefas| Bitrix24 | |
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
