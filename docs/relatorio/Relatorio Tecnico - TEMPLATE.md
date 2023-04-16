@@ -1,7 +1,7 @@
 # Informações do Projeto
 ## Nome do Projeto  
 
-         CHICKCOUNT
+         DynamicTecnologyCount
 
 ## Curso 
 
