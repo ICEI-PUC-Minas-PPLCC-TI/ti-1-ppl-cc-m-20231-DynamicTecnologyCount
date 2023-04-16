@@ -231,7 +231,9 @@ Pensamos em formas de conseguir realizar a proposta feita nas especificações d
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O grupo adotou o Design Thinking e o Framework Scrum como metodologias de trabalho. Incialmente, produzimos a Matriz CSD e o Mapa de Stakeholders. Depois conduzimos as entrevistas qualitativas, em que conversamospor exemplo, com o diretor regional e a gerente de enfermagem de uma das maiores empresas de hospitais do mundo, a HapVida. Com essas informações em mãos criamos as personas, para ajudar a entendermos e mapearmos melhor as possíveis soluções para o problema. Em seguida, conduzimos o BrainStorm, e dele elegemos as melhores ideias para levarmos ao mural de possibilidades. E então, finalmente, escolhemos a melhor solução para o problema.
+
+Com relação ao Scrum, foram realizadas reuniões diárias tanto para produção do trabalho quanto para mapear o que havia sido feito e o que ainda precisava ser feito.
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
