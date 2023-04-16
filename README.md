@@ -7,7 +7,7 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 * Ana Carolina Couto Machado
 * Arthur Oliveira Santos
 * Davi Oliveira Sad
-* Felipe Castro Barbosa Ladeia
+* Filipe Castro Barbosa Ladeia
 * Matheus Fagundes Araujo
 * Pedro Henrique Magno Gonçalves
 
