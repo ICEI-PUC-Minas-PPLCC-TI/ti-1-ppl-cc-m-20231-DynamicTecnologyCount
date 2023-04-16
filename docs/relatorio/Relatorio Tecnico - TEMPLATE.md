@@ -267,27 +267,21 @@ Pensamos em formas de conseguir realizar a proposta feita nas especificações d
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro | https://miro.com/app/board/uXjVMYD9yI0=/| 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-20231-chickcount| 
-|Hospedagem do site |  |   | 
+|Hospedagem do site |  |  Não existe ainda | 
 |Protótipo Interativo | MavelApp | https://marvelapp.com/whiteboard/yRuw6FuNNw9gok27Czjw | 
-|Editor de Código| VSCode | |
-|Divisão de Tarefas| Bitrix24 | |
-
+|Editor de Código| VSCode | Não existe ainda | 
+|Divisão de Tarefas| Bitrix24 | https://b24-qhhufh.bitrix24.com.br/company/personal/user/5/tasks/?secret=nkprzss3 |
 >
 > Liste as ferramentas empregadas no desenvolvimento do
 > projeto, justificando a escolha delas, sempre que possível.
 > 
 > As ferramentas empregadas no projeto são:
 > 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
+> - Vscode: por ser uma plataforma intuitiva e de facil acesso a todos os membros do grupo. 
+> - Discord: todos os integrantes já o possuiam e portanto foi a plataforma escolhida para as reuniões.
+> - Miro e Marvel: pela sua simplicidade e intuitividade acabaram por ser escolhidos.
+> - Plataforma de hospedagem: ainda não foi decidido.
+>
 > 
 > **Links Úteis - Hospedagem**:
 > - [Getting Started with Heroku](https://devcenter.heroku.com/start)
