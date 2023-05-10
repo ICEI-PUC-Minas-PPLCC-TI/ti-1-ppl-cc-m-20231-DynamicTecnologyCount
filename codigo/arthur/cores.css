@@ -162,6 +162,10 @@ section{
     text-align: center;
 }
 
+.info span{
+    font-size: 20px;
+}
+
 
 /* Footer */
 
