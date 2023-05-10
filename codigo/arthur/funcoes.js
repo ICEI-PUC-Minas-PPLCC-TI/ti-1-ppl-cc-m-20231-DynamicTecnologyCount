@@ -1,9 +1,10 @@
 
 /* Definiçaõ das váriavéis da tela Financias*/
 
+
 var financias = {
 
-    quantidade_de_enfermeiros: 1000,
+    quantidade_de_enfermeiros: 10000,
     quantidade_de_tecnicos: 1000,
     salario_enfermeiro: 1500,
     gastos_dos_enfermeiros: 2000,
@@ -21,7 +22,7 @@ var gastos_totais = financias.gastos_dos_enfermeiros + financias.gastos_dos_tecn
 
 var contratacao = {
 
-    enfermeiros_a_contratar: 100,
+    enfermeiros_a_contratar: 300,
     tecnicos_a_contratar: 50,
 
 }
@@ -42,6 +43,7 @@ function Financeiro (){
     let tela6 = document.querySelector('span.mediatecnicos');
     let tela7 = document.querySelector('span.gastostotais');
 
+
     tela1.innerHTML = `R$${financias.salario_enfermeiro},00`;
     tela2.innerHTML = `R$${financias.gastos_dos_enfermeiros},00`;
     tela3.innerHTML = `R$${financias.salario_tecnico},00`;
@@ -55,7 +57,7 @@ function Financeiro (){
 
 /* Função para colocar na tela da Contratação os valores corretos */
 
-function Contratacao(){
+function Contratar(){
 
     let tela8 = document.querySelector('span.ncontratar-enfermeiro');
     let tela9 = document.querySelector('span.ncontratar-tecnico');
