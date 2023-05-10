@@ -8,10 +8,11 @@
     <script src="https://kit.fontawesome.com/e65e29a543.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="cores.css">
     <script src="funcoes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title> CDT </title>
 </head>
 
-<body onload = " Financeiro ()">
+<body onload = "Financeiro ()">
 
     <header>
 
@@ -156,8 +157,42 @@
             </div>
 
             <div class="grafico">
+
+                <canvas id="myChart1" width="600px" height="500px" onload="Grafico1 ()"></canvas>
+
+                <script>
+                    var dados = {
+                        labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio'],
+                        datasets: [{
+                            label: 'gasto Total',
+                            data: [40000, 30000, 56000, 34000, 5000],
+                            backgroundColor: 'rgba(211, 211, 211, 0.5)', // Cor de preenchimento das barras
+                            borderColor: 'rgba(54, 162, 235, 1)', // Cor da borda das barras
+                            borderWidth: 1 // Largura da borda das barras
+                        }]
+                    };
+
+                    // Opções do gráfico de barras
+                    var opcoes = {
+                        responsive: true,
+                        scales: {
+                            y: {
+                                beginAtZero: true // Começar o eixo y a partir de zero
+                            }
+                        }
+                    };
+
+                    // Criar o gráfico de barras
+                    var ctx = document.getElementById('myChart1').getContext('2d');
+                    var myChart = new Chart(ctx, {
+                        type: 'bar',
+                        data: dados,
+                        options: opcoes
+                    });
+                </script>
+
+                <!--<img src="imagens/logozinha1-2.png" width="500px" height="500px">-->
                 
-                <img src="imagens/logozinha1-2.png" width="500px" height="500px">
 
             </div>
 

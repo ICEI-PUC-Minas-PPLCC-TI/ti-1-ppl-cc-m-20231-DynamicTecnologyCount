@@ -68,3 +68,70 @@ function Contratacao (){
     tela9.innerHTML = `${contratacao.tecnicos_a_contratar}`;
     tela10.innerHTML = `R$${gastos_da_contratacao},00`;
 }
+
+/* Função para o gráfico de finacias*/
+
+function Grafico1 (){
+    var dados = {
+        labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio'],
+        datasets: [{
+          label: 'Vendas',
+          data: [120, 150, 200, 100, 180],
+          backgroundColor: 'rgba(54, 162, 235, 0.5)', // Cor de preenchimento das barras
+          borderColor: 'rgba(54, 162, 235, 1)', // Cor da borda das barras
+          borderWidth: 1 // Largura da borda das barras
+        }]
+      };
+      
+      // Opções do gráfico de barras
+      var opcoes = {
+        responsive: true,
+        scales: {
+          y: {
+            beginAtZero: true // Começar o eixo y a partir de zero
+          }
+        }
+      };
+      
+      // Criar o gráfico de barras
+      var ctx = document.getElementById('myChart').getContext('2d');
+      var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: dados,
+        options: opcoes
+      });
+}
+
+
+/* Função para o gráfico de Gastos*/
+
+function Grafico2 (){
+    var dados = {
+        labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio'],
+        datasets: [{
+          label: 'Vendas',
+          data: [120, 150, 200, 100, 180],
+          backgroundColor: 'rgba(54, 162, 235, 0.5)', // Cor de preenchimento das barras
+          borderColor: 'rgba(54, 162, 235, 1)', // Cor da borda das barras
+          borderWidth: 1 // Largura da borda das barras
+        }]
+      };
+      
+      // Opções do gráfico de barras
+      var opcoes = {
+        responsive: true,
+        scales: {
+          y: {
+            beginAtZero: true // Começar o eixo y a partir de zero
+          }
+        }
+      };
+      
+      // Criar o gráfico de barras
+      var ctx = document.getElementById('myChart').getContext('2d');
+      var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: dados,
+        options: opcoes
+      });
+}
