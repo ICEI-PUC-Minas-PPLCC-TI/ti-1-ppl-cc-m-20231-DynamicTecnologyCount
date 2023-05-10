@@ -7,7 +7,7 @@ var financias = {
 
     quantidade_de_enfermeiros: 1000,
     quantidade_de_tecnicos: 1000,
-    salario_enfermeiro: 1500,
+    salario_enfermeiro: 2100,
     gastos_dos_enfermeiros: 2000,
     salario_tecnico: 1500,
     gastos_dos_tecnicos: 3000,
