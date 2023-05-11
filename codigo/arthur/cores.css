@@ -153,6 +153,10 @@ section{
     text-align: center;
 }
 
+.info:hover{
+    translate: 10px;
+}
+
 .info-gasto{
     margin: 20px 0px 5px 0px;
     background-color: rgb(0, 0, 0);

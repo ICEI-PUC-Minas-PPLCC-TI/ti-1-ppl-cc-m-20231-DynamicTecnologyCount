@@ -61,7 +61,7 @@
 
     <aside>
 
-        <div class="navegacao">
+        <div class="navegacao" onload="Aperta()">
             
             <div class="bar">
                 <a href="#"><i class="fa-solid fa-list fa-2xl"></i></i></a>
@@ -111,7 +111,7 @@
 
                     <div class="info">
 
-                        <h2> Sálario dos enfermeiros: <span class="nenfermeiros"></span> </h2>
+                        <h2> Sálario dos enfermeiros: <span class="nenfermeiros"> XXXXXXX </span> </h2>
                 
                     </div>
 
@@ -120,34 +120,35 @@
                         <h2>  Sálario dos técnicos de enfermagem: <span class="ntecnico"> XXXXXXX </span> </h2>
                 
                     </div>
-                
+
                     <div class="info">
 
-                        <h2> Total de gastos enfermeiros: <span class="ngastosenfermeiros"></span> </h2>
+                        <h2> Média sálarial dos enfermeiros: <span class="mediaenfermeiros"> XXXXXXX </span> </h2>
                 
                     </div>
 
                     <div class="info">
 
-                        <h2> Total de gastos técnico de enfermagem: <span class="ngastostecnico"></span> </h2>
+                        <h2> Média sálarial dos técnicos de enfermagem: <span class="mediatecnicos"> XXXXXXX </span> </h2>
+                
+                    </div>
+                
+                    <div class="info">
+
+                        <h2> Total de gastos enfermeiros: <span class="ngastosenfermeiros"> XXXXXXX </span> </h2>
                 
                     </div>
 
                     <div class="info">
 
-                        <h2> Média sálarial dos enfermeiros: <span class="mediaenfermeiros"></span> </h2>
+                        <h2> Total de gastos técnico de enfermagem: <span class="ngastostecnico"> XXXXXXX </span> </h2>
                 
                     </div>
 
-                    <div class="info">
-
-                        <h2> Média sálarial dos técnicos de enfermagem: <span class="mediatecnicos"></span> </h2>
-                
-                    </div>
 
                     <div class="info-gasto">
 
-                        <h2> Gasto total: <span class="gastostotais"></span> </h2>
+                        <h2> Gasto total: <span class="gastostotais"> XXXXXXX </span> </h2>
                 
                     
                     </div>
@@ -165,7 +166,7 @@
                         labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio'],
                         datasets: [{
                             label: 'gasto Total',
-                            data: [40000, 30000, 56000, 34000, 5000],
+                            data: [40000, 30000, 56000, 34000, gastos_totais],
                             backgroundColor: 'rgba(211, 211, 211, 0.5)', // Cor de preenchimento das barras
                             borderColor: 'rgba(54, 162, 235, 1)', // Cor da borda das barras
                             borderWidth: 1 // Largura da borda das barras
