@@ -149,6 +149,7 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    border-radius: 10px;
 }
 
 .meio .grafico{
@@ -168,6 +169,7 @@ section{
     padding: 20px;
     text-align: center;
     font-size: 30px;
+    border-radius: 10px;
 }
 
 .esquerda-meio .dados {
@@ -180,6 +182,7 @@ section{
     background-color: white;
     padding: 10px;
     text-align: center;
+    border-radius: 4px;
 }
 
 .info:hover{
@@ -193,6 +196,7 @@ section{
     color: white;
     font-size: 20px;
     text-align: center;
+    border-radius: 4px;
 }
 
 .info span{
