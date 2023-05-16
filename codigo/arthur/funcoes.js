@@ -101,6 +101,7 @@ var contratacao = {
 }
 
 var gastos_da_contratacao = (contratacao.enfermeiros_a_contratar * media_enfermeiros) + (contratacao.tecnicos_a_contratar * media_tecnicos);
+var gasto_da_diferenca = gastos_da_contratacao + gasto_total;
 
 
 

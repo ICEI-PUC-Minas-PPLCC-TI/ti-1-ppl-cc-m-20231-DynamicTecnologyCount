@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/e65e29a543.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="cores2.css">
     <script src="funcoes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>CDT</title>
 </head>
 <body onload="Contratacao ()">
@@ -131,7 +132,40 @@
 
             <div class="grafico">
                 
-                <img src="imagens/logozinha1-2.png" width="500px" height="500px">
+                <canvas id="Chart1" width="600px" height="500px"></canvas>
+
+                <script>
+
+                    var dados = {
+                        labels: ['Atual', 'Pós contratação'],
+                        datasets: [{
+                            label: 'Gasto',
+                            data: [gasto_total, gasto_da_diferenca],
+                            backgroundColor: 'rgba(211, 211, 211, 0.5)', // Cor de preenchimento das barras
+                            borderColor: 'rgba(54, 162, 235, 1)', // Cor da borda das barras
+                            borderWidth: 1 // Largura da borda das barras
+                        }]
+                    };
+
+                    // Opções do gráfico de barras
+                    var opcoes = {
+                        responsive: true,
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    };
+
+                    // Criar o gráfico de barras
+                    var ctx = document.getElementById('Chart1').getContext('2d');
+                    var myChart = new Chart(ctx, {
+                        type: 'bar',
+                        data: dados,
+                        options: opcoes
+                    });
+                    
+                </script>                
                 
             </div>
 
