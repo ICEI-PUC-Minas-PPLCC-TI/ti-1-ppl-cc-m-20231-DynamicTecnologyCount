@@ -74,27 +74,56 @@ aside{
     align-items: center;
 }
 
+.bar:hover{
+    transform: scale(1.1);
+}
+
 .home{
     margin: 15px 5px;   
+}
+
+.home:hover{
+    transform: scale(1.1);
 }
 
 .money{
     margin: 20px 15px;
 }
+
+.money:hover{
+    transform: scale(1.1);
+}
+
 .users1{
     margin: 20px 5px;
+}
+
+.users1:hover{
+    transform: scale(1.1);
 }
 
 .users2{ 
     margin: 20px 5px;
 }
 
+.users2:hover{
+    transform: scale(1.1);
+}
+
 .receip{
     margin: 20px 12px;
 }
 
+.receip:hover{
+    transform: scale(1.1);
+}
+
 .rotate{
     margin: 20px 10px;
+}
+
+.rotate:hover{
+    transform: scale(1.1);
 }
 
 .navegacao div a{

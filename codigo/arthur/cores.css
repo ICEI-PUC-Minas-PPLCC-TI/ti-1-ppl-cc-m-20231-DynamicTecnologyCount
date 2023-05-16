@@ -78,7 +78,7 @@ aside{
 }
 
 .bar:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .home{
@@ -86,7 +86,7 @@ aside{
 }
 
 .home:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .money{
@@ -94,7 +94,7 @@ aside{
 }
 
 .money:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .users1{
@@ -102,7 +102,7 @@ aside{
 }
 
 .user1:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .users2{ 
@@ -110,7 +110,7 @@ aside{
 }
 
 .users2:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .receip{
@@ -118,7 +118,7 @@ aside{
 }
 
 .receip:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .rotate{
@@ -126,7 +126,7 @@ aside{
 }
 
 .rotate:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .navegacao div a{
