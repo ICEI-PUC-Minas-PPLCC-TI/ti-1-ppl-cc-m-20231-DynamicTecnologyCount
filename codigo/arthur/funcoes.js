@@ -21,6 +21,8 @@ var Funcionarios_tecnicos_de_enfermagem = [
 
 ]
 
+/*  Cálculos que ocorreram na tela de financias */ 
+
 var salario_enfermeiro = 0;
 var salario_tecnico = 0;
 var gastos_mais_enfermeiro = 0;
@@ -61,6 +63,34 @@ var Financias = {
 
 }
 
+/* Função para colocar na tela do Financeiro os valores corretos */ 
+
+function Financeiro (){  let tela1 = document.querySelector('span.nenfermeiros');
+
+  let tela2 = document.querySelector('span.ngastosenfermeiros');
+  let tela3 = document.querySelector('span.ntecnico');
+  let tela4 = document.querySelector('span.ngastostecnico');
+  let tela5 = document.querySelector('span.mediaenfermeiros');
+  let tela6 = document.querySelector('span.mediatecnicos');
+
+  let tela7 = document.querySelector('span.gastostotais');
+  tela1.innerHTML = `R$${salario_enfermeiro},00`;
+
+  tela2.innerHTML = `R$${Financias.gastos_dos_enfermeiros_total},00`;
+  tela3.innerHTML = `R$${salario_tecnico},00`;
+  tela4.innerHTML = `R$${Financias.gastos_dos_tecnicos_total},00`;
+  tela5.innerHTML = `R$${Financias.media_enfermeiros_total},00`;
+  tela6.innerHTML = `R$${Financias.media_tecnicos_total},00`;
+
+  tela7.innerHTML = `R$${Financias.gastos_totais},00`;
+
+}
+
+
+
+
+
+/* Esta parte é da sprint 3, não precisa olhar agora, mas se quiser se sinta a vontade */ 
 /* Definiçaõ das váriavéis da tela Contratação*/
 
 var contratacao = {
@@ -72,28 +102,7 @@ var contratacao = {
 
 var gastos_da_contratacao = (contratacao.enfermeiros_a_contratar * media_enfermeiros) + (contratacao.tecnicos_a_contratar * media_tecnicos);
 
-/* Função para colocar na tela do Financeiro os valores corretos */ 
 
-function Financeiro (){
-
-  let tela1 = document.querySelector('span.nenfermeiros');
-  let tela2 = document.querySelector('span.ngastosenfermeiros');
-  let tela3 = document.querySelector('span.ntecnico');
-  let tela4 = document.querySelector('span.ngastostecnico');
-  let tela5 = document.querySelector('span.mediaenfermeiros');
-  let tela6 = document.querySelector('span.mediatecnicos');
-  let tela7 = document.querySelector('span.gastostotais');
-
-
-  tela1.innerHTML = `R$${salario_enfermeiro},00`;
-  tela2.innerHTML = `R$${Financias.gastos_dos_enfermeiros_total},00`;
-  tela3.innerHTML = `R$${salario_tecnico},00`;
-  tela4.innerHTML = `R$${Financias.gastos_dos_tecnicos_total},00`;
-  tela5.innerHTML = `R$${Financias.media_enfermeiros_total},00`;
-  tela6.innerHTML = `R$${Financias.media_tecnicos_total},00`;
-  tela7.innerHTML = `R$${Financias.gastos_totais},00`;
-
-}
 
 /* Função para colocar na tela da Contratação os valores corretos */
 
