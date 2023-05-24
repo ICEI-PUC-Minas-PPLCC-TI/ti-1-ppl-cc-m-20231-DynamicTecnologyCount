@@ -1,12 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/e65e29a543.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="imagens/logozinha1-2.png">
+    <link rel="stylesheet" href="cores.css">
+    <script src="script.js"></script>
+
+    <title>CDT</title>
+
 </head>
+
 <body>
+
+    <header>
+
+        <nav>
+
+            <div class="cabecalho">
+
+                <div class="esquerda">
+
+                    <div class="logo">
+
+                        <img src="logozinha1-2.png">
+
+                    </div>
+
+                    <div class="nome">
+
+                        <p> Dinamic Tecnology Count </p>
+
+                    </div>
+
+                </div>
+
+                <div class="direita">
+
+                    <div class="user">
+
+                        <a href="#"><i class="fa-solid fa-bell fa-xl"></i></a>
+
+                    </div>
+
+                    <div class="notificacao">
+
+                        <a href="#"><i class="fa-solid fa-user fa-xl"></i></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <aside>
+        
+        <div class="navegacao">
+
+            <div class="bar">
+                <a href="#"><i class="fa-solid fa-list fa-2xl"></i></i></a>
+            </div>
+
+            <div class="home">
+                <a href="#"><i class="fa-solid fa-house fa-2xl"></i></a>
+            </div>
+
+            <div class="money">
+                <a href="financias.html"><i class="fa-solid fa-dollar-sign fa-2xl"></i></a>
+            </div>
+
+            <div class="users1">
+                <a href="#"><i class="fa-solid fa-users-rectangle fa-2xl"></i></a>
+            </div>
+
+            <div class="users2">
+                <a href="#"><i class="fa-solid fa-users fa-2xl"></i></a>
+            </div>
+
+            <div class="receip">
+                <a href="contratação.html"><i class="fa-solid fa-receipt fa-2xl"></i></a>
+            </div>
+
+            <div class="rotate">
+                <a href="#"><i class="fa-solid fa-rotate fa-2xl"></i></a>
+            </div>
+
+        </div>
+
+    </aside>
+<div class="main-content">
+    <h1>INFO - ENFERMEIROS</h1>
+
+    <div class="titulo-e-busca">
+
+        
+        <div class="bussca">
+        <input type="text" id="termo-busca" placeholder="Buscar...">
+        <button onclick="buscar()">Buscar</button>
+    </div>
+      </div>
+      
+      <div class="titulo">ENFERMEIRO</div>
+       
+  
+        <div class="tabela-enfermeiros linha cabecalho">
+          <div class="nome-enfermeiro">Nome Completo</div>
+          <div class="horas-trabalhadas">Horas trabalhadas</div>
+          <div class="salario">Salário</div>
+          <div class="gasto-para-hospital">Gasto para o hospital</div>
+          <div class="id-enfermeiros">ID do enfermeiro</div>
+        </div>
+        
+        <div class="tabela-enfermeiros"></div>
+        
+        <div class="titulo">TECNICO DE ENFERMAGEM</div>
+        
+
+        <div class="tabela-tecnicos-enfermagem linha cabecalho">
+          <div class="nome-enfermeiro">Nome Completo</div>
+          <div class="horas-trabalhadas">Horas trabalhadas</div>
+          <div class="salario">Salário</div>
+          <div class="gasto-para-hospital">Gasto para o hospital</div>
+          <div class="id-enfermeiros">ID do enfermeiro</div>
+        </div>
+      
+        <div class="tabela-tecnicos-enfermagem"></div>
+        
+      
+      <script>
+        var enfermeiros = [
+          { nome: 'Enfermeiro 1', horas: 40, salario: 1500, gasto: 3000, id: 1 },
+          { nome: 'Enfermeiro 2', horas: 30, salario: 1500, gasto: 2500, id: 2 },
+          { nome: 'Enfermeiro 3', horas: 35, salario: 1500, gasto: 3000, id: 3 },
+          { nome: 'Enfermeiro 4', horas: 45, salario: 1500, gasto: 3500, id: 4 },
+          { nome: 'Enfermeiro 5', horas: 50, salario: 1500, gasto: 4000, id: 5 }
+        ];
     
+        var tabelaEnfermeiros = document.querySelector('.tabela-enfermeiros');
+    
+        for (var i = 0; i < enfermeiros.length; i++) {
+          var enfermeiro = enfermeiros[i];
+    
+          var linha = document.createElement('div');
+          linha.classList.add('linha');
+    
+          var nome = document.createElement('div');
+          nome.classList.add('nome-enfermeiro');
+          nome.textContent = enfermeiro.nome;
+    
+          var horas = document.createElement('div');
+          horas.classList.add('horas-trabalhadas');
+          horas.textContent = enfermeiro.horas;
+    
+          var salario = document.createElement('div');
+          salario.classList.add('salario');
+          salario.textContent = enfermeiro.salario;
+    
+          var gasto = document.createElement('div');
+          gasto.classList.add('gasto-para-hospital');
+          gasto.textContent = enfermeiro.gasto;
+    
+          var id = document.createElement('div');
+          id.classList.add('id-enfermeiros');
+          id.textContent = enfermeiro.id;
+    
+          linha.appendChild(nome);
+          linha.appendChild(horas);
+          linha.appendChild(salario);
+          linha.appendChild(gasto);
+          linha.appendChild(id);
+    
+          tabelaEnfermeiros.appendChild(linha);
+        }
+    
+        var tecnicosEnfermagem = [
+          { nome: 'Tecnico de Enfermagem 1', horas: 40, salario: 1500, gasto: 2000, id: 1 },
+          { nome: 'Tecnico de Enfermagem 2', horas: 40, salario: 1500, gasto: 2000, id: 2 },
+          { nome: 'Tecnico de Enfermagem 3', horas: 60, salario: 2000, gasto: 3000, id: 3 },
+          { nome: 'Tecnico de Enfermagem 4', horas: 60, salario: 2000, gasto: 3000, id: 4 },
+          { nome: 'Tecnico de Enfermagem 5', horas: 60, salario: 1800, gasto: 2500, id: 5 }
+        ];
+    
+        var tabelaTecnicosEnfermagem = document.querySelector('.tabela-tecnicos-enfermagem');
+    
+        for (var i = 0; i < tecnicosEnfermagem.length; i++) {
+          var tecnico = tecnicosEnfermagem[i];
+    
+          var linha = document.createElement('div');
+          linha.classList.add('linha');
+    
+          var nome = document.createElement('div');
+          nome.classList.add('nome-enfermeiro');
+          nome.textContent = tecnico.nome;
+    
+          var horas = document.createElement('div');
+          horas.classList.add('horas-trabalhadas');
+          horas.textContent = tecnico.horas;
+    
+          var salario = document.createElement('div');
+          salario.classList.add('salario');
+          salario.textContent = tecnico.salario;
+    
+          var gasto = document.createElement('div');
+          gasto.classList.add('gasto-para-hospital');
+          gasto.textContent = tecnico.gasto;
+    
+          var id = document.createElement('div');
+          id.classList.add('id-enfermeiros');
+          id.textContent = tecnico.id;
+    
+          linha.appendChild(nome);
+          linha.appendChild(horas);
+          linha.appendChild(salario);
+          linha.appendChild(gasto);
+          linha.appendChild(id);
+    
+          tabelaTecnicosEnfermagem.appendChild(linha);
+        }
+        
+        function buscar() {
+  var termoBusca = document.getElementById('termo-busca').value.toLowerCase();
+
+  var linhasEnfermeiros = document.querySelectorAll('.tabela-enfermeiros .linha');
+  for (var i = 0; i < linhasEnfermeiros.length; i++) {
+    var linha = linhasEnfermeiros[i];
+    var nome = linha.querySelector('.nome-enfermeiro').textContent.toLowerCase();
+    var horas = linha.querySelector('.horas-trabalhadas').textContent.toLowerCase();
+    var salario = linha.querySelector('.salario').textContent.toLowerCase();
+    var gasto = linha.querySelector('.gasto-para-hospital').textContent.toLowerCase();
+    var id = linha.querySelector('.id-enfermeiros').textContent.toLowerCase();
+
+    if (nome.includes(termoBusca) || horas.includes(termoBusca) || salario.includes(termoBusca) || gasto.includes(termoBusca) || id.includes(termoBusca)) {
+      linha.style.display = 'flex';
+    } else {
+      linha.style.display = 'none';
+    }
+  }
+
+  var linhasTecnicos = document.querySelectorAll('.tabela-tecnicos-enfermagem .linha');
+  for (var i = 0; i < linhasTecnicos.length; i++) {
+    var linha = linhasTecnicos[i];
+    var nome = linha.querySelector('.nome-enfermeiro').textContent.toLowerCase();
+    var horas = linha.querySelector('.horas-trabalhadas').textContent.toLowerCase();
+    var salario = linha.querySelector('.salario').textContent.toLowerCase();
+    var gasto = linha.querySelector('.gasto-para-hospital').textContent.toLowerCase();
+    var id = linha.querySelector('.id-enfermeiros').textContent.toLowerCase();
+
+    if (nome.includes(termoBusca) || horas.includes(termoBusca) || salario.includes(termoBusca) || gasto.includes(termoBusca) || id.includes(termoBusca)) {
+      linha.style.display = 'flex';
+    } else {
+      linha.style.display = 'none';
+    }
+  }
+}
+
+      </script>
+
+   
 </body>
+
 </html>
