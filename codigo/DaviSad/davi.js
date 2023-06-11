@@ -1,7 +1,7 @@
 const buttonElement = document.querySelector('#enviar');
 
 buttonElement.addEventListener('click', function() {
-  const nomeInput = document.querySelector('#PN');
+  const nomeInput = document.querySelector('#NomeArea');
   const capacidadeInput = document.querySelector('#Cap');
 
   const nome = nomeInput.value;
