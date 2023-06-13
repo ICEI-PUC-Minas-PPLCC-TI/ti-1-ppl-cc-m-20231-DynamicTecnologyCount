@@ -1,0 +1,233 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header do Site*/
+
+.cabecalho {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+}
+
+.esquerda {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 20px;
+}
+
+.esquerda img {
+    width: 50px;
+    height: 50px;
+}
+
+.nome {
+    margin: auto 10px;
+}
+
+.direita {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 0px;
+}
+
+.notificacao {
+    margin: auto 10px;
+}
+
+.notificacao a {
+    text-decoration: none;
+    color: white;
+}
+
+.user {
+    margin: auto 10px;
+}
+
+.user a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Aside = Navegação da esquerda*/
+
+
+aside {
+    margin: 20px 20px;
+    width: 5%;
+    float: left;
+}
+
+.navegacao {
+    display: flex;
+    flex-wrap: wrap;
+    width: 3%;
+}
+
+.bar {
+    margin: 10px 4px 40px 4px;
+    align-items: center;
+}
+
+.home {
+    margin: 15px 5px;
+}
+
+.money {
+    margin: 20px 15px;
+}
+
+.users1 {
+    margin: 20px 5px;
+}
+
+.users2 {
+    margin: 20px 5px;
+}
+
+.receip {
+    margin: 20px 12px;
+}
+
+.rotate {
+    margin: 20px 10px;
+}
+
+.navegacao div a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Info-enfermeiros(main content)*/
+
+
+/* Inicio do Botao de Busca*/
+.titulo-e-busca {
+    display: flex;
+    justify-content: flex-end; /* Alinha os elementos à direita */
+    align-items: center;
+    margin-right: 100px; /* Ajusta a margem à direita */
+  }
+  
+  .titulo-e-busca input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-right: 10px;
+  }
+  
+  .titulo-e-busca button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+  }
+  
+
+  
+/* Fim do Botao de Busca*/
+
+/* Info-enfermeiros(main content)*/
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    font-size: 18px;
+    color: white;
+    background-color: #000000;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 3px;
+    width: 90.3%;
+    text-align: center;
+}
+
+.nome-enfermeiro,
+.horas-trabalhadas,
+.salario,
+.gasto-para-hospital,
+.id-enfermeiros {
+    display: table-cell;
+    padding: 5px;
+    border: 1px solid rgb(33, 33, 33);
+    
+}
+
+h1 {
+   
+    margin-top: 20px;
+}
+
+.tabela-tecnicos-enfermagem-linha-cabecalho {
+    background-color: rgb(0, 0, 0);
+    color: rgb(253, 253, 253);
+}
+
+
+.linha {
+    display: flex;
+    padding: 5px;
+    border: 1px solid black;
+    width: 90%;
+}
+
+
+.linha div {
+    flex-grow: 1;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+}
+
+.linha {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos adicionais para cada coluna */
+.nome-enfermeiro {
+    flex-basis: 30%;
+}
+
+.horas-trabalhadas,
+.salario,
+.gasto-para-hospital,
+.id-enfermeiros {
+    flex-basis: 14%;
+    text-align: center;
+}
+
+
+
+/* Estilos para tabela de Enfermeiros */
+/*.tabela-enfermeiros {
+    background-color: white;
+    color: black;
+}*/
+
+.tabela-enfermeiros .linha {
+    background-color: white;
+    color: black;
+}
+
+/* Estilos para tabela de Técnicos de Enfermagem */
+/*.tabela-tecnicos-enfermagem {
+    background-color: white;
+    color: black;
+} */
+
+.tabela-tecnicos-enfermagem .linha {
+    background-color: white;
+    color: black;
+}
