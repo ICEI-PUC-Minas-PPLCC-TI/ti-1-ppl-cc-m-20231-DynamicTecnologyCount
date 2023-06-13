@@ -1,0 +1,171 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.corpo{
+    background-color: lightgray;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 5%;
+    margin-right: 2%;
+    padding-bottom: 20%;
+    padding-top: 3%;
+
+    
+}
+.corpo input{
+    display: block;
+    font-size: 200%;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid #ccc;
+    margin-bottom: 1%;
+    margin-left: 30%;
+    width: 40%;
+
+}
+.corpo select{
+    display: block;
+    font-size: 200%;
+    border-radius: 4px;
+    border: none;
+    border: 2px solid #4CAF50;
+    margin-bottom: 1%;
+    margin-left: 30%;
+    width: 40%;
+
+    
+    
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1% 2%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 46%;
+    text-align: center;
+   
+    
+}
+
+h1 {
+    text-align: left;
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header do Site*/
+
+.cabecalho{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+}
+
+.esquerda{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 20px;
+}
+
+.esquerda img {
+    width: 50px;
+    height: 50px;
+}
+
+.nome {
+    margin: auto 10px;
+}
+
+.direita{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 0px;
+}
+
+.notificacao{
+    margin: auto 10px;
+}
+
+.notificacao a {
+    text-decoration: none;
+    color: white;
+}
+
+.user{
+    margin: auto 10px;
+}
+
+.user a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Aside = Navegação da esquerda*/
+
+
+aside{
+    margin: 20px 20px;
+    width: 5%;
+    float: left;
+}
+
+.navegacao{
+    display: flex;
+    flex-wrap: wrap;
+    width:3%;
+}
+
+.bar{
+    margin: 10px 4px 40px 4px;
+    align-items: center;
+}
+
+.home{
+    margin: 15px 5px;   
+}
+
+.money{
+    margin: 20px 15px;
+}
+.users1{
+    margin: 20px 5px;
+}
+
+.users2{ 
+    margin: 20px 5px;
+}
+
+.receip{
+    margin: 20px 12px;
+}
+
+.rotate{
+    margin: 20px 10px;
+}
+
+.navegacao div a{
+    text-decoration: none;
+    color: black;
+}
