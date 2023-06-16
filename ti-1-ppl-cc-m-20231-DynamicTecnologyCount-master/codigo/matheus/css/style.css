@@ -1,78 +1,3 @@
-body
-{
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-.corpo{
-    background-color: lightgray;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    margin-left: 5%;
-    margin-right: 2%;
-    padding-bottom: 20%;
-    padding-top: 3%;
-
-    
-}
-.corpo input{
-    display: block;
-    font-size: 200%;
-    border-radius: 4px;
-    border: none;
-    border: 1px solid #ccc;
-    margin-bottom: 1%;
-    margin-left: 30%;
-    width: 40%;
-
-}
-.corpo select{
-    display: block;
-    font-size: 200%;
-    border-radius: 4px;
-    border: none;
-    border: 2px solid #4CAF50;
-    margin-bottom: 1%;
-    margin-left: 30%;
-    width: 40%;
-
-    
-    
-}
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 1% 2%;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-left: 46%;
-    text-align: center;
-   
-    
-}
-
-h1 {
-    text-align: left;
-    background-color: black;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    margin-left: 5%;
-    margin-top: 2%;
-    margin-right: 2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: white;
-}
-
-
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    box-sizing: border-box;
-}
-
-/* Header do Site*/
 
 .cabecalho{
     background-color: black;
@@ -169,3 +94,251 @@ aside{
     text-decoration: none;
     color: black;
 }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+table {
+    border-collapse: collapse;
+    background-color: lightgray;
+    width: 93%;
+    margin-left: 5%;
+}
+h2{
+    background-color: lightgray;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 5%;
+    margin-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 30%;
+    color: lightgray;
+    font-size: 10%;
+}
+h3{
+    color: white;
+    padding: 2%;
+    font-size: 10%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+  h1 {
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+    padding-left: 3%;
+    margin-right: 2%;
+}
+form button{
+    background-color: #4CAF50;
+    color: white;
+    padding: .8% 1.2%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   /*margin-left: 46%;*/ 
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+#formCRUD{
+    
+    background-color: lightgray;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 5%;
+    margin-right: 2%;
+    padding-bottom: 10%;
+    padding-left: 30%;
+    padding-top: 3%;
+    
+}
+#formCRUD label{
+    font-size: 120%;
+
+}
+#formCRUD select{
+    width: 40%;
+    font-size: 100%;
+    margin-left: 0%;
+}
+input{
+
+    font-size: 180%;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid #ccc;
+    margin-bottom: 1%;
+    width: 40%;
+}
+
+
+h4{
+    color: lightgray;
+    background-color: lightgray;
+    margin-left: 5%;
+    margin-right: 2%;
+    font-size: 1%;
+}
+#cargo{
+    padding: .8% 1.2%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   /*margin-left: 46%;*/ 
+    text-align: center;
+
+
+}
+@media screen and (max-width: 1435px) and (min-width: 846px)
+{
+
+    #formCRUD{
+    
+        background-color: lightgray;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-left: 8%;
+        margin-right: 20%;
+        padding-bottom: 10%;
+        padding-left: 5%;
+        padding-top: 3%;
+    }
+    h1 {
+        background-color: black;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin-left: 8%;
+        margin-right: 20%;
+        margin-top: 2%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        color: white;
+        padding-left: 3%;
+    }
+    h4{
+        color: lightgray;
+        background-color: lightgray;
+        margin-left: 8%;
+        margin-right: 20%;
+        font-size: 1%;
+    }
+    #formCRUD select{
+        width: 95%;
+        font-size: 100%;
+        margin-left: 0%;
+    }
+    table {
+        border-collapse: collapse;
+        background-color: lightgray;
+        width: 72%;
+        margin-left: 8%;
+    }
+    h2{
+        color: lightgray;
+        background-color: lightgray;
+        margin-left: 8%;
+        margin-right: 20%;
+        font-size: 1%;
+    }
+    #formCRUD input{
+
+        width: 95%;
+
+    }
+    form button{
+        background-color: #4CAF50;
+        color: white;
+        padding: 2% 3%;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+        margin-left: 40%;
+        margin-top: 3%;
+    }
+    
+}
+@media screen and (max-width: 847px){
+
+    aside{
+        display: none;
+    }
+    #formCRUD{
+    
+        background-color: lightgray;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-left: 1%;
+        margin-right: 1%;
+        padding-bottom: 10%;
+        padding-left: 5%;
+        padding-top: 3%;
+    }
+    h1 {
+        background-color: black;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 2%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        color: white;
+        padding-left: 3%;
+    }
+    h4{
+        color: lightgray;
+        background-color: lightgray;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-size: 1%;
+    }
+    #formCRUD select{
+        width: 93%;
+        font-size: 100%;
+        margin-left: 1%;
+    }
+    table {
+        border-collapse: collapse;
+        background-color: lightgray;
+        width: 98%;
+        margin-left: 1%;
+    }
+    h2{
+        color: lightgray;
+        background-color: lightgray;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-size: 1%;
+    }
+    #formCRUD input{
+
+        width: 95%;
+
+    }
+    form button{
+        background-color: #4CAF50;
+        color: white;
+        padding: 5% 7%;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+        margin-left: 35%;
+        margin-top: 4%;
+    }
+
+}
+
