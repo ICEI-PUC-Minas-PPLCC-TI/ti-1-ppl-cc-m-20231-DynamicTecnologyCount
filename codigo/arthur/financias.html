@@ -12,7 +12,7 @@
     <title> CDT </title>
 </head>
 
-<body onload = "Financeiro ()">
+<body onload="InserirDadosCabeca()">
 
     <header>
 
@@ -72,11 +72,11 @@
             </div>
 
             <div class="money">
-                <a href="financias.html"><i class="fa-solid fa-dollar-sign fa-2xl"></i></a>
+                <a href="#"><i class="fa-solid fa-dollar-sign fa-2xl"></i></a>
             </div>
 
             <div class="users1">
-                <a href="#"><i class="fa-solid fa-users-rectangle fa-2xl"></i></a>
+                <a href="/matheus/index.html"><i class="fa-solid fa-users-rectangle fa-2xl"></i></a>
             </div>
 
             <div class="users2">
@@ -88,7 +88,7 @@
             </div>
 
             <div class="rotate">
-                <a href="#"><i class="fa-solid fa-rotate fa-2xl"></i></a>
+                <a href="/davisad/davi.html"><i class="fa-solid fa-rotate fa-2xl"></i></a>
             </div>
 
         </div>
@@ -164,10 +164,10 @@
 
                 <script>
                     var dados = {
-                        labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio'],
+                        labels: ['Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro'],
                         datasets: [{
                             label: 'gasto Total',
-                            data: [39000, 35000, 50000, 34000, Financias.gastos_totais],
+                            data: [39000, gasto_total],
                             backgroundColor: 'rgba(211, 211, 211, 0.5)', // Cor de preenchimento das barras
                             borderColor: 'rgba(54, 162, 235, 1)', // Cor da borda das barras
                             borderWidth: 1 // Largura da borda das barras

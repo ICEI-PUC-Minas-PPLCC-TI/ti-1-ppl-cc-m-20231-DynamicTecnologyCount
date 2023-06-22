@@ -150,6 +150,7 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .meio .grafico{
