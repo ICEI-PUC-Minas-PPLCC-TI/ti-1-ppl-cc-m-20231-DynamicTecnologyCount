@@ -1,31 +1,78 @@
-const buttonElement = document.querySelector('#enviar');
 
-buttonElement.addEventListener('click', function() {
-  const nomeInput = document.querySelector('#NomeArea');
-  const capacidadeInput = document.querySelector('#Cap');
+function getInformacoes() {
+  return JSON.parse(localStorage.getItem('dadosArea')) || [];
+}
 
-  const nome = nomeInput.value;
-  const capacidade = capacidadeInput.value;
+function exibirInformacoes() {
+  var informacao = getInformacoes();
+  var tabela = document.getElementById("tabelaCRUD");
 
-  const pacienteData = {
-    NomeÁrea: nome,
-    CapacidadePacientes: capacidade,
+  tabela.getElementsByTagName("tbody")[0].innerHTML = " ";
+
+  for (var i = 0; i < dadosArea.length; i++) {
+    var informacao = dadosArea[i];
+
+    var linha = document.createElement('tr');
+    var colunaArea = document.createElement('td');
+    var colunaCapacidade = document.createElement('td');
+    var colunaAcoes = document.createElement('td')
+    var botaoExcluir = document.createElement('button');
+    var botaoEditar = document.createElement('button');
     
-  };
 
-  const data = localStorage.getItem('dadosÁrea');
-  let dadosÁrea = [];
+    colunaArea.textContent = dadosArea.NomeÁrea;
+    colunaArea.textContent = dadosArea.CapacidadePacientes;
 
-  if (data) {
-    dadosÁrea = JSON.parse(data);
+    botaoEditar.textContent = "Editar";
+    botaoEditar.addEventListener(
+      "click"(function (index) {
+        return function () {
+          editarInformacao(index);
+        };
+      })(i)
+    );
+
+    botaoExcluir.textContent = "Excluir";
+    botaoExcluir.addEventListener(
+      "click",
+      (function (index) {
+        return function () {
+          excluirInformacao(index);
+        };
+      })(i)
+    );
+    
+    colunaAcoes.appendChild(botaoEditar);
+    colunaAcoes.appendChild(botaoExcluir);
+    
+    linha.appendChild(colunaArea);
+    linha.appendChild(colunaCapacidade);
+
+    tabela.getElementsByTagName('tbody')[0].appendChild(linha);
+
   }
+}
 
-  dadosÁrea.push(pacienteData);
+function editarInformacao(index) {
+  var dadosArea = getInformacoes();
 
-  localStorage.setItem('dadosÁrea', JSON.stringify(dadosÁrea));
+  var informacao = dadosArea[index];
 
-  alert("Dados salvos com sucesso");
+  document.getElementById('NomeArea').value = dadosArea.NomeÁrea;
+  document.getElementById('Cap').value = dadosArea.CapacidadePacientes;
 
-  nomeInput.value = '';
-  capacidadeInput.value = '';
-});
+  dadosArea.splice(index, 1);
+  localStorage.setItem('dadosArea', JSON.stringify(dadosArea));
+
+  editarInformacao();
+}
+
+function excluirInformacao(index){
+  var informacao = getInformacoes();
+
+  dadosArea.splice(index, 1);
+  localStorage.setItem('dadosArea', JSON.stringify(dadosArea));
+
+  excluirInformacao();
+}
+excluirInformacao();
