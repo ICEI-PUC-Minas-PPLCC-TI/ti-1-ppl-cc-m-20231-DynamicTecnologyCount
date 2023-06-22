@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="davi.css">
     <script src="https://kit.fontawesome.com/e65e29a543.js" crossorigin="anonymous"></script>
-    <script src="davi.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -66,11 +65,11 @@
             </div>
 
             <div class="money">
-                <a href="financias.html"><i class="fa-solid fa-dollar-sign fa-2xl"></i></a>
+                <a href="/arthur/financias.html"><i class="fa-solid fa-dollar-sign fa-2xl"></i></a>
             </div>
 
             <div class="users1">
-                <a href="#"><i class="fa-solid fa-users-rectangle fa-2xl"></i></a>
+                <a href="/matheus/index.html"><i class="fa-solid fa-users-rectangle fa-2xl"></i></a>
             </div>
 
             <div class="users2">
@@ -78,7 +77,7 @@
             </div>
 
             <div class="receip">
-                <a href="contratação.html"><i class="fa-solid fa-receipt fa-2xl"></i></a>
+                <a href="/arthur/contratacao.html"><i class="fa-solid fa-receipt fa-2xl"></i></a>
             </div>
 
             <div class="rotate">
@@ -95,8 +94,117 @@
         <input type="text" id="Cap" class="Cap" placeholder="Capacidade de Pacientes">
    
         
-        <button id ="enviar" class="enviar">Adicionar</button>
+        <button type="submit" id="Salvar" class="enviar" onclick="adicionarInformacao()">Adicionar</button>
     </div>
+
+
+<h2 class="infos">Informações Salvas</h2>
+  <table id="tabelaCRUD">
+    <thead>
+      <tr>
+        <th>Area</th>
+        <th>Capacidade</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    
+    function getInformacoes() {
+  return JSON.parse(localStorage.getItem('dadosArea')) || [];
+}
+
+function adicionarInformacao() {
+  var nomeArea = document.getElementById('NomeArea').value;
+  var capacidade = document.getElementById('Cap').value;
+
+  var informacao = {
+    NomeÁrea: nomeArea,
+    CapacidadePacientes: capacidade
+  };
+
+  var dadosArea = getInformacoes();
+  dadosArea.push(informacao);
+  localStorage.setItem('dadosArea', JSON.stringify(dadosArea));
+
+  exibirInformacoes();
+}
+
+function exibirInformacoes() {
+  var dadosArea = getInformacoes();
+  var tabela = document.getElementById("tabelaCRUD");
+
+  tabela.getElementsByTagName("tbody")[0].innerHTML = " ";
+
+  for (var i = 0; i < dadosArea.length; i++) {
+    var informacao = dadosArea[i];
+
+    var linha = document.createElement('tr');
+    var colunaArea = document.createElement('td');
+    var colunaCapacidade = document.createElement('td');
+    var colunaAcoes = document.createElement('td')
+    var botaoExcluir = document.createElement('button');
+    var botaoEditar = document.createElement('button');
+
+    colunaArea.textContent = informacao["NomeÁrea"];
+    colunaCapacidade.textContent = informacao["CapacidadePacientes"];
+
+    botaoEditar.textContent = "Editar";
+    botaoEditar.addEventListener(
+      "click",
+      (function (index) {
+        return function () {
+          editarInformacao(index);
+        };
+      })(i)
+    );
+
+    botaoExcluir.textContent = "Excluir";
+    botaoExcluir.addEventListener(
+      "click",
+      (function (index) {
+        return function () {
+          excluirInformacao(index);
+        };
+      })(i)
+    );
+
+    colunaAcoes.appendChild(botaoEditar);
+    colunaAcoes.appendChild(botaoExcluir);
+
+    linha.appendChild(colunaArea);
+    linha.appendChild(colunaCapacidade);
+    linha.appendChild(colunaAcoes);
+
+    tabela.getElementsByTagName('tbody')[0].appendChild(linha);
+  }
+}
+
+function editarInformacao(index) {
+  var dadosArea = getInformacoes();
+  var informacao = dadosArea[index];
+
+  document.getElementById('NomeArea').value = informacao.NomeÁrea;
+  document.getElementById('Cap').value = informacao.CapacidadePacientes;
+
+  dadosArea.splice(index, 1);
+  localStorage.setItem('dadosArea', JSON.stringify(dadosArea));
+}
+
+function excluirInformacao(index) {
+  var dadosArea = getInformacoes();
+
+  dadosArea.splice(index, 1);
+  localStorage.setItem('dadosArea', JSON.stringify(dadosArea));
+}
+
+exibirInformacoes(); // Chamada correta para exibir as informações na tabela
+
+
+  </script>
+
+
         <footer class = "footer"></footer>
 </body>
 </html>
