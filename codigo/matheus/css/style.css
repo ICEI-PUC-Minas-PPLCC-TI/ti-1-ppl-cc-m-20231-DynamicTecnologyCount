@@ -49,22 +49,19 @@
 
 /* Aside = Navegação da esquerda*/
 
-
-aside{
-    margin: 20px 20px;
-    width: 5%;
+.tudo{
+    width: 3%;
+    display: block;
     float: left;
+    margin-top: 1%;
+    margin-left: 1%;
 }
 
-.navegacao{
-    display: flex;
-    flex-wrap: wrap;
-    width:3%;
-}
 
 .bar{
-    margin: 10px 4px 40px 4px;
-    align-items: center;
+
+    margin-top: 2%;
+    
 }
 
 .home{
@@ -87,6 +84,9 @@ aside{
 }
 
 .rotate{
+    margin: 20px 10px;
+}
+.chart{
     margin: 20px 10px;
 }
 
