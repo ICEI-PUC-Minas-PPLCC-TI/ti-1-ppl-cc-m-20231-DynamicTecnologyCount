@@ -1,210 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="davi.css">
-    <script src="https://kit.fontawesome.com/e65e29a543.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entrada de dados Enfermeiros</title>
+  <link rel="stylesheet" href="davi.css">
+  <script src="https://kit.fontawesome.com/e65e29a543.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <div class="cabecalho">
-
-                <div class="esquerda">
-
-                    <div class="logo">
-                    
-                        <img src="logozinha1-2.png">
-
-                    </div>
-
-                    <div class="nome">
-
-                        <p> Dynamic Tecnology Count </p>
-
-                    </div>
-
-                </div>
-
-                <div class="direita">
-
-                    <div class="user">
-
-                        <a href="#"><i class="fa-solid fa-bell fa-xl"></i></a>
-                    
-                    </div>
-
-                    <div class="notificacao">
-
-                        <a href="#"><i class="fa-solid fa-user fa-xl"></i></a>
-                        
-                    </div>
-                
-                </div>
-
-
-            </div>
-
-        </nav>
-
-    </header>
-
-    <aside>
-
-        <div class="navegacao">
-            
-            <div class="bar">
-                <a href="#"><i class="fa-solid fa-list fa-2xl"></i></i></a>
-            </div>
-
-            <div class="home">
-                <a href="#"><i class="fa-solid fa-house fa-2xl"></i></a>
-            </div>
-
-            <div class="money">
-                <a href="/ti-1-ppl-cc-m-20231-DynamicTecnologyCount/codigo/arthur/financias.html"><i class="fa-solid fa-dollar-sign fa-2xl"></i></a>
-            </div>
-
-            <div class="users1">
-                <a href="/codigo/matheus/index.html"><i class="fa-solid fa-users-rectangle fa-2xl"></i></a>
-            </div>
-
-            <div class="users2">
-                <a href="#"><i class="fa-solid fa-users fa-2xl"></i></a>
-            </div>
-
-            <div class="receip">
-                <a href="/codigo/arthur/contratacao.html"><i class="fa-solid fa-receipt fa-2xl"></i></a>
-            </div>
-
-            <div class="rotate">
-                <a href="#"><i class="fa-solid fa-rotate fa-2xl"></i></a>
-            </div>
-
+  <!--Header-->
+  <header>
+    <nav>
+      <div class="cabecalho">
+        <div class="esquerda">
+          <div class="logo">
+            <img src="imagens/logozinha1-2.png" width="50px" height="50px">
+          </div>
+          <div class="nome">
+            <p> Dinamic Tecnology Count </p>
+          </div>
         </div>
-        
-    </aside>
-        <h1>CADASTRO DE ÁREAS</h1>
-        <div class="corpo">
-        <input type="text" id="NomeArea" class="NomeArea" placeholder="Nome da Área">
-       
-        <input type="text" id="Cap" class="Cap" placeholder="Capacidade de Pacientes">
-   
-        
-        <button type="submit" id="Salvar" class="enviar" onclick="adicionarInformacao()">Adicionar</button>
+        <div class="direita">
+          <div class="user">
+            <a href=""><i class="fa-solid fa-bell fa-xl"></i></a>
+          </div>
+          <div class="notificacao">
+            <a href="#"><i class="fa-solid fa-user fa-xl"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--Barra lateral-->
+  <aside>
+    <div class="navegacao">
+      <div class="bar">
+        <a href="#"><i class="fa-solid fa-list fa-2xl"></i></a>
+      </div>
+      <div class="home">
+        <a href="#"><i class="fa-solid fa-house fa-2xl"></i></a>
+      </div>
+      <div class="money">
+        <a href="/arthur/financias.html"><i class="fa-solid fa-dollar-sign fa-2xl"></i></a>
+      </div>
+      <div class="users1">
+        <a href="#"><i class="fa-solid fa-users-rectangle fa-2xl"></i></a>
+      </div>
+      <div class="users2">
+        <a href="#"><i class="fa-solid fa-users fa-2xl"></i></a>
+      </div>
+      <div class="receip">
+        <a href="/arthur/contratacao.html"><i class="fa-solid fa-receipt fa-2xl"></i></a>
+      </div>
+      <div class="rotate">
+        <a href="/davisad/davi.html"><i class="fa-solid fa-rotate fa-2xl"></i></a>
+      </div>
     </div>
+  </aside>
 
+  <h1>Adicionar áreas do Hospital</h1>
+  <h4>gay</h4>
+  <form id="formCRUD">
+    <label for="area">Área:</label><br>
+    <input type="text" id="area" required placeholder="Nome"><br>
 
-<h2 class="infos">Informações Salvas</h2>
+    <label for="capacidade">Capacidade:</label><br>
+    <input type="number" id="capacidade" required placeholder="Horas"><br>
+
+    <button type="submit" id="Salvar">Salvar</button>
+  </form>
+
+  <h1 class="infos">Áreas Salvas</h1>
   <table id="tabelaCRUD">
     <thead>
       <tr>
-        <th>Area</th>
+        <th>Área</th>
         <th>Capacidade</th>
+        <th>Ações</th>
       </tr>
     </thead>
     <tbody></tbody>
   </table>
+  <h2>gay</h2>
+  <h3>gay</h3>
 
   <script>
-    
+    // Função para obter as informações salvas no localStorage
     function getInformacoes() {
-  return JSON.parse(localStorage.getItem('dadosArea')) || [];
-}
+      return JSON.parse(localStorage.getItem('dadosArea')) || [];
+    }
 
-function adicionarInformacao() {
-  var nomeArea = document.getElementById('NomeArea').value;
-  var capacidade = document.getElementById('Cap').value;
+    // Função para exibir as informações na tabela
+    function exibirInformacoes() {
+      var dadosArea = getInformacoes();
+      var tabela = document.getElementById('tabelaCRUD');
 
-  var informacao = {
-    NomeÁrea: nomeArea,
-    CapacidadePacientes: capacidade
-  };
+      // Limpar tabela
+      tabela.getElementsByTagName('tbody')[0].innerHTML = '';
 
-  var dadosArea = getInformacoes();
-  dadosArea.push(informacao);
-  localStorage.setItem('dadosArea', JSON.stringify(dadosArea));
+      for (var i = 0; i < dadosArea.length; i++) {
+        var informacao = dadosArea[i];
 
-  exibirInformacoes();
-}
+        var linha = document.createElement('tr');
+        var colunaArea = document.createElement('td');
+        var colunaCapacidade = document.createElement('td');
+        var colunaAcoes = document.createElement('td');
+        var botaoEditar = document.createElement('button');
+        var botaoExcluir = document.createElement('button');
 
-function exibirInformacoes() {
-  var dadosArea = getInformacoes();
-  var tabela = document.getElementById("tabelaCRUD");
+        colunaArea.textContent = informacao.area;
+        colunaCapacidade.textContent = informacao.capacidade;
 
-  tabela.getElementsByTagName("tbody")[0].innerHTML = " ";
+        botaoEditar.textContent = 'Editar';
+        botaoEditar.addEventListener(
+          'click',
+          (function (index) {
+            return function () {
+              editarInformacao(index);
+            };
+          })(i)
+        );
 
-  for (var i = 0; i < dadosArea.length; i++) {
-    var informacao = dadosArea[i];
+        botaoExcluir.textContent = 'Excluir';
+        botaoExcluir.addEventListener(
+          'click',
+          (function (index) {
+            return function () {
+              excluirInformacao(index);
+            };
+          })(i)
+        );
 
-    var linha = document.createElement('tr');
-    var colunaArea = document.createElement('td');
-    var colunaCapacidade = document.createElement('td');
-    var colunaAcoes = document.createElement('td')
-    var botaoExcluir = document.createElement('button');
-    var botaoEditar = document.createElement('button');
+        colunaAcoes.appendChild(botaoEditar);
+        colunaAcoes.appendChild(botaoExcluir);
 
-    colunaArea.textContent = informacao["NomeÁrea"];
-    colunaCapacidade.textContent = informacao["CapacidadePacientes"];
+        linha.appendChild(colunaArea);
+        linha.appendChild(colunaCapacidade);
+        linha.appendChild(colunaAcoes);
 
-    botaoEditar.textContent = "Editar";
-    botaoEditar.addEventListener(
-      "click",
-      (function (index) {
-        return function () {
-          editarInformacao(index);
-        };
-      })(i)
-    );
+        tabela.getElementsByTagName('tbody')[0].appendChild(linha);
+      }
+    }
 
-    botaoExcluir.textContent = "Excluir";
-    botaoExcluir.addEventListener(
-      "click",
-      (function (index) {
-        return function () {
-          excluirInformacao(index);
-        };
-      })(i)
-    );
+    // Função para adicionar ou atualizar uma informação
+    function adicionarAtualizarInformacao(event) {
+      event.preventDefault();
 
-    colunaAcoes.appendChild(botaoEditar);
-    colunaAcoes.appendChild(botaoExcluir);
+      var area = document.getElementById('area').value;
+      var capacidade = document.getElementById('capacidade').value;
 
-    linha.appendChild(colunaArea);
-    linha.appendChild(colunaCapacidade);
-    linha.appendChild(colunaAcoes);
+      var dadosArea = getInformacoes();
 
-    tabela.getElementsByTagName('tbody')[0].appendChild(linha);
-  }
-}
+      var informacao = {
+        area: area,
+        capacidade: capacidade,
+      };
 
-function editarInformacao(index) {
-  var dadosArea = getInformacoes();
-  var informacao = dadosArea[index];
+      dadosArea.push(informacao);
+      localStorage.setItem('dadosArea', JSON.stringify(dadosArea));
 
-  document.getElementById('NomeArea').value = informacao.NomeÁrea;
-  document.getElementById('Cap').value = informacao.CapacidadePacientes;
+      // Limpar campos do formulário
+      document.getElementById('area').value = '';
+      document.getElementById('capacidade').value = '';
 
-  dadosArea.splice(index, 1);
-  localStorage.setItem('dadosArea', JSON.stringify(dadosArea));
-}
+      exibirInformacoes();
+    }
 
-function excluirInformacao(index) {
-  var dadosArea = getInformacoes();
+    // Função para editar uma informação
+    function editarInformacao(index) {
+      var dadosArea = getInformacoes();
 
-  dadosArea.splice(index, 1);
-  localStorage.setItem('dadosArea', JSON.stringify(dadosArea));
-}
+      var informacao = dadosArea[index];
 
-exibirInformacoes(); // Chamada correta para exibir as informações na tabela
+      document.getElementById('area').value = informacao.area;
+      document.getElementById('capacidade').value = informacao.capacidade;
 
+      // Remover a informação da lista antes de atualizá-la
+      dadosArea.splice(index, 1);
+      localStorage.setItem('dadosArea', JSON.stringify(dadosArea));
 
+      exibirInformacoes();
+    }
+
+    // Função para excluir uma informação
+    function excluirInformacao(index) {
+      var dadosArea = getInformacoes();
+
+      // Remover a informação da lista
+      dadosArea.splice(index, 1);
+      localStorage.setItem('dadosArea', JSON.stringify(dadosArea));
+
+      exibirInformacoes();
+    }
+
+    // Chamar a função para exibir as informações ao carregar a página
+    exibirInformacoes();
+
+    // Adicionar o evento de submit ao formulário
+    document.getElementById('formCRUD').addEventListener('submit', adicionarAtualizarInformacao);
   </script>
 
-
-        <footer class = "footer"></footer>
 </body>
+
 </html>
