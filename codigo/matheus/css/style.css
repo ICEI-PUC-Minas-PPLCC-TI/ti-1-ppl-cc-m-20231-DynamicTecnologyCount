@@ -55,13 +55,13 @@
     float: left;
     margin-top: 1%;
     margin-left: 1%;
+    color: black;
+
 }
 
 
 .bar{
-
     margin-top: 2%;
-    
 }
 
 .home{
@@ -87,10 +87,11 @@
     margin: 20px 10px;
 }
 .chart{
+    
     margin: 20px 10px;
 }
 
-.navegacao div a{
+.sidebar div a{
     text-decoration: none;
     color: black;
 }
