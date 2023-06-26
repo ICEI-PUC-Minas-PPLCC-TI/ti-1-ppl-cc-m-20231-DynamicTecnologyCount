@@ -9,7 +9,7 @@
     <script src="TIAW.js" defer></script>
     <title>Document</title>
 </head>
-<body>
+<body onload = "Areas ()">
     <header>
         <nav>
             <div class="cabecalho">
@@ -56,35 +56,34 @@
     <aside>
 
         <div class="navegacao">
-            
             <div class="bar">
-                <a href="#"><i class="fa-solid fa-list fa-2xl"></i></i></a>
-            </div>
+                <a href="#" class="abrir"><i class="fa-solid fa-list fa-2xl"></i></i></a>
+                <div class="resto">
+                    <div class="home">
+                        <a href="#"><i class="fa-solid fa-house fa-2xl"></i></a>
+                    </div>
 
-            <div class="home">
-                <a href="#"><i class="fa-solid fa-house fa-2xl"></i></a>
-            </div>
+                    <div class="money">
+                        <a href="/codigo/arthur/financias.html"><i class="fa-solid fa-dollar-sign fa-2xl"></i></a>
+                    </div>
 
-            <div class="money">
-                <a href="financias.html"><i class="fa-solid fa-dollar-sign fa-2xl"></i></a>
-            </div>
+                    <div class="users1">
+                        <a href="/codigo/matheus/index.html"><i class="fa-solid fa-users-rectangle fa-2xl"></i></a>
+                    </div>
 
-            <div class="users1">
-                <a href="#"><i class="fa-solid fa-users-rectangle fa-2xl"></i></a>
-            </div>
+                    <div class="users2">
+                        <a href="#"><i class="fa-solid fa-users fa-2xl"></i></a>
+                    </div>
 
-            <div class="users2">
-                <a href="#"><i class="fa-solid fa-users fa-2xl"></i></a>
-            </div>
+                    <div class="receip">
+                        <a href="/codigo/arthur/contratacao.html"><i class="fa-solid fa-receipt fa-2xl"></i></a>
+                    </div>
 
-            <div class="receip">
-                <a href="contratação.html"><i class="fa-solid fa-receipt fa-2xl"></i></a>
+                    <div class="rotate">
+                        <a href="/codigo/davisad/davi.html"><i class="fa-solid fa-rotate fa-2xl"></i></a>
+                    </div>
+                </div>
             </div>
-
-            <div class="rotate">
-                <a href="#"><i class="fa-solid fa-rotate fa-2xl"></i></a>
-            </div>
-
         </div>
         
     </aside>
@@ -93,19 +92,17 @@
         <input type="text" id="PN" class="PN" placeholder="Nome Completo">
        
         <select id="area" name="area">
-            <option value="opcao1">Área do Hospital</option>
-            <option value="opcao1">CTI</option>
-            <option value="opcao2">Pronto Socorro</option>
+
         </select>
    
 
-        <select class="fugulin">
-            <option type="text">Necessidade de Cuidados</option>
-            <option type="text">Mínimos</option>
-            <option type="text">Intermediários</option>
-            <option type="text">Alta Dependência</option>
-            <option type="text">Semi Intensivo</option>
-            <option type="text">Intensivo</option>
+        <select id="fugulin">
+            <option type="text" value="errado">Necessidade de Cuidados</option>
+            <option type="text " value = "certo">Mínimos</option>
+            <option type="text" value = "certo">Intermediários</option>
+            <option type="text" value = "certo">Alta Dependência</option>
+            <option type="text" value = "certo">Semi Intensivo</option>
+            <option type="text" value = "certo">Intensivo</option>
         </select>
         
         <button id ="enviar" class="enviar">Enviar</button>
