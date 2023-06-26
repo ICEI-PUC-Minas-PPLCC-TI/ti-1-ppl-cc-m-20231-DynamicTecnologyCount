@@ -63,33 +63,39 @@
     <aside>
         
         <div class="navegacao">
-
+            
             <div class="bar">
-                <a href="#"><i class="fa-solid fa-list fa-2xl"></i></i></a>
-            </div>
 
-            <div class="home">
-                <a href="#"><i class="fa-solid fa-house fa-2xl"></i></a>
-            </div>
-
-            <div class="money">
-                <a href="financias.html"><i class="fa-solid fa-dollar-sign fa-2xl"></i></a>
-            </div>
-
-            <div class="users1">
-                <a href="#"><i class="fa-solid fa-users-rectangle fa-2xl"></i></a>
-            </div>
-
-            <div class="users2">
-                <a href="#"><i class="fa-solid fa-users fa-2xl"></i></a>
-            </div>
-
-            <div class="receip">
-                <a href="contratação.html"><i class="fa-solid fa-receipt fa-2xl"></i></a>
-            </div>
-
-            <div class="rotate">
-                <a href="#"><i class="fa-solid fa-rotate fa-2xl"></i></a>
+                <a href="#" class="abrir"><i class="fa-solid fa-list fa-2xl"></i></i></a>
+                
+                <div class="resto">
+                    
+                    <div class="home">
+                        <a href="#"><i class="fa-solid fa-house fa-2xl"></i></a>
+                    </div>
+        
+                    <div class="money">
+                        <a href="/codigo/arthur/financias.html"><i class="fa-solid fa-dollar-sign fa-2xl"></i></a>
+                    </div>
+        
+                    <div class="users1">
+                        <a href="/codigo/matheus/index.html"><i class="fa-solid fa-users-rectangle fa-2xl"></i></a>
+                    </div>
+        
+                    <div class="users2">
+                        <a href="#"><i class="fa-solid fa-users fa-2xl"></i></a>
+                    </div>
+        
+                    <div class="receip">
+                        <a href="/codigo/arthur/contratacao.html"><i class="fa-solid fa-receipt fa-2xl"></i></a>
+                    </div>
+        
+                    <div class="rotate">
+                        <a href="/codigo/davisad/davi.html"><i class="fa-solid fa-rotate fa-2xl"></i></a>
+                    </div>
+    
+                </div>
+                
             </div>
 
         </div>
@@ -98,9 +104,24 @@
     <div class="main-content">
         <h1>INFO - PACIENTES</h1>
     
+        <h1 class="infos">Informações Salvas</h1>
+  <table id="tabelaCRUD">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Horas</th>
+        <th>Salário</th>
+        <th>Total</th>
+        <th>Cargo</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  
         <div class="titulo-e-busca">
             <div class="bussca">
-              <input type="text" id="termo-busca" placeholder="Buscar...">
+                <input type="text" id="filtro" placeholder="Filtrar..." oninput="filtro()">
               <button onclick="buscar()">Buscar</button>
             </div>
           
