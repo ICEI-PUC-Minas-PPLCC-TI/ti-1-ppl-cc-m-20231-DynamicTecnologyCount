@@ -37,73 +37,47 @@
   </header>
 
 
-  <script>
-    function toggleNavigation() {
-      var sidebar = document.querySelector('.sidebar');
-      sidebar.style.display = sidebar.style.display === 'none' ? 'block' : 'none';
-    }
-  </script>
+  <aside>
 
-  
-<div class="tudo">
-<div class="bar">
-  <button onclick="toggleNavigation()">
-    <a href="#"><i class="fa-solid fa-list fa-2xl"></i></a>
-  </button>
-</div>
-  <!--Barra lateral-->
-  <aside class="sidebar">
-    <!-- Conteúdo do aside -->
+    <div class="navegacao">
+        
+        <div class="bar">
 
-    <div class="home">
-      <a href="#" onmouseover="showCustomPopup('Página Inicial', event)" onmouseout="hideCustomPopup()">
-        <i class="fa-solid fa-house fa-2xl"></i>
-      </a>
+            <a href="#" class="abrir"><i class="fa-solid fa-list fa-2xl"></i></i></a>
+            
+            <div class="resto">
+                
+                <div class="home">
+                    <a href="#"><i class="fa-solid fa-house fa-2xl"></i></a>
+                </div>
+    
+                <div class="money">
+                    <a href="/codigo/arthur/financias.html"><i class="fa-solid fa-dollar-sign fa-2xl"></i></a>
+                </div>
+    
+                <div class="users1">
+                    <a href="#"><i class="fa-solid fa-users-rectangle fa-2xl"></i></a>
+                </div>
+    
+                <div class="users2">
+                    <a href="#"><i class="fa-solid fa-users fa-2xl"></i></a>
+                </div>
+    
+                <div class="receip">
+                    <a href="/codigo/arthur/contratacao.html"><i class="fa-solid fa-receipt fa-2xl"></i></a>
+                </div>
+    
+                <div class="rotate">
+                    <a href="/codigo/davisad/davi.html"><i class="fa-solid fa-rotate fa-2xl"></i></a>
+                </div>
+
+            </div>
+            
+        </div>
+
     </div>
-
-    <div class="money">
-      <a href="financias.html" onmouseover="showCustomPopup('Finanças', event)" onmouseout="hideCustomPopup()">
-        <i class="fa-solid fa-dollar-sign fa-2xl"></i>
-      </a>
-    </div>
-
-    <div class="users1">
-      <a href="Index.html" onmouseover="showCustomPopup('Espaços', event)" onmouseout="hideCustomPopup()">
-        <i class="fa-solid fa-users-rectangle fa-2xl"></i>
-      </a>
-    </div>
-
-    <div class="users2">
-      <a href="#" onmouseover="showCustomPopup('Informação Enfermeiros', event)" onmouseout="hideCustomPopup()">
-        <i class="fa-solid fa-users fa-2xl"></i>
-      </a>
-    </div>
-
-    <div class="receip">
-      <a href="contratação.html" onmouseover="showCustomPopup('Contratação',event)" onmouseout="hideCustomPopup()">
-        <i class="fa-solid fa-receipt fa-2xl"></i>
-      </a>
-    </div>
-
-    <div class="rotate">
-      <a href="#" onmouseover="showCustomPopup('Comparação', event)" onmouseout="hideCustomPopup()">
-        <i class="fa-solid fa-rotate fa-2xl"></i>
-      </a>
-    </div>
-
-    <div class="chart">
-      <a href="#" onmouseover="showCustomPopup('Dados Gerais', event)" onmouseout="hideCustomPopup()">
-        <i class="fa-solid fa-chart-bar fa-2xl"></i>
-      </a>
-    </div>
-  </div>
+    
   </aside>
-
-
-
-
-
-
 
   
   <h1>Adicionar/Editar Informações</h1>

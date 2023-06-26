@@ -72,13 +72,29 @@ aside{
     width:3%;
 }
 
+.resto div{
+    margin-bottom: 30px;
+}
+
+.abrir i{
+    margin-bottom: 25px;
+}
+
 .bar{
-    margin: 10px 4px 40px 4px;
+    margin-top: 20px;
+}
+
+.bar .resto a i{
+    margin: 15px auto;
     align-items: center;
 }
 
-.bar:hover{
-    transform: scale(1.1);
+.bar .resto{
+    display: none;
+}
+
+.bar:hover .resto{
+    display: block;
 }
 
 .home{
