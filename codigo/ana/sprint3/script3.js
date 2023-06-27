@@ -1,67 +1,49 @@
-function getInformacoes() {
-  return JSON.parse(localStorage.getItem('informacoes')) || [];
-}
+function exibirDados() {
+  var data = localStorage.getItem("dadosPacientes");
+  var dadosPacientes = JSON.parse(data);
+  var tabela = document.getElementById("tabela");
 
-// Função para exibir as informações na tabela
-function exibirInformacoes() {
-  var informacoes = getInformacoes();
-  var tabela = document.getElementById('tabelaCRUD');
+  for (let i = 0; i < dadosPacientes.length; i++) {
+    var paciente = dadosPacientes[i];
 
-  // Limpar tabela
-  tabela.getElementsByTagName('tbody')[0].innerHTML = '';
+    var linha = document.createElement("tr");
+    var nome = document.createElement("td");
+    var area = document.createElement("td");
+    var necessidade = document.createElement("td");
 
-  for (var i = 0; i < informacoes.length; i++) {
-    var informacao = informacoes[i];
+    nome.textContent = paciente.Nome;
+    area.textContent = paciente.ÁreaHospital;
+    necessidade.textContent = paciente.NecessidadeCuidados;
 
-    var linha = document.createElement('tr');
-    var colunaNome = document.createElement('td');
-    var colunaHoras = document.createElement('td');
-    var colunaSalario = document.createElement('td');
-    var colunaTotal = document.createElement('td');
+    linha.appendChild(nome);
+    linha.appendChild(area);
+    linha.appendChild(necessidade);
 
-    colunaNome.textContent = informacao.nome;
-    colunaHoras.textContent = informacao.horas;
-    colunaSalario.textContent = informacao.salario;
-    colunaTotal.textContent = informacao.total;
-    colunaCargo.textContent = informacao.cargo;
-
-
-
-    linha.appendChild(colunaNome);
-    linha.appendChild(colunaHoras);
-    linha.appendChild(colunaSalario);
-    linha.appendChild(colunaTotal);
-
-
-    tabela.getElementsByTagName('tbody')[0].appendChild(linha);
-
+    tabela.getElementsByTagName("tbody")[0].appendChild(linha);
   }
 }
 
-exibirInformacoes();
+exibirDados();
 
-function buscar() {
-  var termoBusca = document.getElementById('termo-busca').value.toLowerCase();
-
-  var linhasPacientes = document.querySelectorAll('.tabela-pacientes .linha');
-  for (var i = 0; i < linhasPacientes.length; i++) {
-    var linha = linhasPacientes[i];
-    var id = linha.querySelector('.id-paciente').textContent.toLowerCase();
-    var nome = linha.querySelector('.nome-paciente').textContent.toLowerCase();
-    var escala = linha
-      .querySelector('.escala-fugulin')
-      .textContent.toLowerCase();
-    var ala = linha.querySelector('.ala-hospital').textContent.toLowerCase();
-
-    if (
-      id.includes(termoBusca) ||
-      nome.includes(termoBusca) ||
-      escala.includes(termoBusca) ||
-      ala.includes(termoBusca)
-    ) {
-      linha.style.display = 'flex';
-    } else {
-      linha.style.display = 'none';
+function filtro() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("filtro");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("tabela");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td");
+    for (var j = 0; j < td.length; j++) {
+      var tdata = td[j];
+      if (tdata) {
+        txtValue = tdata.textContent || tdata.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+          break;
+        } else {
+          tr[i].style.display = "none";
+        }
+      }
     }
   }
 }

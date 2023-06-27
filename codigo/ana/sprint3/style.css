@@ -267,3 +267,34 @@ h1 {
   background-color: white;
   color: black;
 }
+table {
+  border-collapse: collapse;
+  background-color: lightgray;
+  width: 90%;
+  margin-left: 0%;
+  padding-bottom: 5%;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  
+}
+/* FIM tavela*/
+
+h2{
+  color: white;
+  padding: 2%;
+  font-size: 10%;
+}
+h1{
+  background-color: black;
+  color: white;
+  width: 90%;
+  float: right;
+  text-align: center;
+  margin-top: 2%;
+  margin-right: 2%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
