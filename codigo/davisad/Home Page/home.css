@@ -56,19 +56,21 @@ span{
 }
 
 aside{
-    margin: 20px 20px;
-    width: 5%;
+    display: block;
     float: left;
+    height: 50%;
+    margin: 20px 20px;
+    float: left;
+
 }
 
 .navegacao{
     display: flex;
     flex-wrap: wrap;
-    width:3%;
 }
 
 .resto div{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .abrir i{
@@ -156,14 +158,18 @@ aside{
 .cima div{
     margin-top : 5%;
     background-color: lightgray;
-    padding: 20px;
     margin-bottom: 5%;
+    width: 20%;
+    padding: 2%;
 }
 .cima{
+    margin-top: 2%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    margin: 20px;
+    justify-content: center;
+    
+    
 
 }
 .Espacos{
@@ -172,7 +178,7 @@ aside{
 }
 .Financeiro{
     margin-right: 5%;
-    margin-left: 1%;
+
 }
 .EntradaProfissionais{
     margin-right: 5%;
@@ -180,8 +186,9 @@ aside{
 
 .baixo div{
     background-color: lightgray;
-    padding: 20px;
-    margin-bottom: 20.8%;
+    width: 20%;
+    padding: 2%;
+    margin-bottom: 10.5%;
 }
 .baixo div h1{
     margin-bottom: 20px;
@@ -191,9 +198,10 @@ aside{
     margin-bottom: 20px; 
 }
 .baixo{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
+    justify-content: center;
 }
 .AContratar{
     margin-right: 0%;
@@ -202,7 +210,6 @@ aside{
 
 .InfoEnfermeiros{
     margin-right: 5%;
-    margin-left: 7.2%;
 }
 
 .DadosPacientes{
@@ -219,6 +226,12 @@ aside{
     padding: 20px;
     bottom: 0;
     float: right;
+    display: block;
+    float: left;
 
-    
+}
+.geral{
+    display: block;
+    float: right;
+    width: 95%;
 }
