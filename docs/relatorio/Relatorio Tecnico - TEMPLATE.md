@@ -249,28 +249,19 @@ Com relação ao Scrum, foram realizadas reuniões diárias tanto para produçã
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro | https://miro.com/app/board/uXjVMYD9yI0=/| 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-20231-chickcount| 
-|Hospedagem do site |  |  Não existe ainda | 
+|Hospedagem do site |  | GitHub | 
 |Protótipo Interativo | MavelApp | https://marvelapp.com/whiteboard/yRuw6FuNNw9gok27Czjw | 
 |Editor de Código| VSCode | Não existe ainda | 
 |Divisão de Tarefas| Bitrix24 | https://b24-qhhufh.bitrix24.com.br/company/personal/user/5/tasks/?secret=nkprzss3 |
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
 > 
 > As ferramentas empregadas no projeto são:
 > 
 > - Vscode: por ser uma plataforma intuitiva e de facil acesso a todos os membros do grupo. 
 > - Discord: todos os integrantes já o possuiam e portanto foi a plataforma escolhida para as reuniões.
 > - Miro e Marvel: pela sua simplicidade e intuitividade acabaram por ser escolhidos.
-> - Plataforma de hospedagem: ainda não foi decidido.
+> - Plataforma de hospedagem: GitHub.
 >
 > 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
-
 ## Controle de Versão
 
 > A ferramenta de controle de versão adotada no projeto foi o
@@ -291,10 +282,6 @@ Com relação ao Scrum, foram realizadas reuniões diárias tanto para produçã
 > - `enhancement`: uma funcionalidade precisa ser melhorada
 > - `feature`: uma nova funcionalidade precisa ser introduzida
 >
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
 >
 > **Exemplo - GitHub Feature Branch Workflow**:
 >
@@ -305,86 +292,71 @@ Com relação ao Scrum, foram realizadas reuniões diárias tanto para produçã
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para solucionar a problemática abordada foi criada uma WebPage para tratar alguns dos problemas do Gestor.
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para a criação deste projeto foram utilizadas algumas ferramentas como o GitHub que foi responsável por agrupar todas as informações do projeto de maneira concissa em um só lugar, a plataforma Uizard para a criação dos Wireframes, Discord para as reuniões diárias e o VirtualStudioCode para a criação dos códigos.
+Assim foi criada uam págian web utilizando ferramentas de nível mediano como o html (criar o "esqueleto" do site), css (deu cor ao site) e javasrcit (usado para fazer toda a parte do backend).
 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
+![Persona 1](images/home.png)
+> Nesta parte do projeto é apresentado o tipo de navegação padrão do site feito pela barra lateral que leva o usuário as outras partes acessavéis.
+>
 > 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+
+![Persona 1](images/entradados1.png)
+> Modelo padrão de entrada de dados pelo usuário que irá ser salvo no local storage para futuras manipulações nas outras páginas.
+>
+>  
+
+
+![Persona 1](images/mostrardados.png)
+> Primeiro tipo de apresentação de dados usado na aplicação com gŕafico.
+>
+> 
+
+![Persona 1](images/mostrardados2.png)
+> Segundo tipo de apresentação de dados usado na aplicação com uma barra de pesquisa.
+>
+> 
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+......  Diagrama da Solução .......
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
+![Projeto](images/prujeto.png)
+>
+> O diagrama começa a partir da tela de login na qual os funcionários e o gestor poderão logar e ser redirecionados as suas respectivas páginas, entretanto a maior parte das funcionalidades estão voltadas para o gestor que é o foco deste estudo.
+Logo após o login o gestor terá acesso as funcionalidades de entrada de dados, visualização de dados e a manipulação dos dados que julgamos serem de maior proveito para o mesmo.
+>
 > 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
-
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
+![Teste1](images/entradadados2.png)
+![Teste2](images/teste1.png)
 
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+> Os cenários utilizados para a identificação de erros foram na parte de entrada, edição e exclusão de dados que se mostraram em alguns pontos falhos devido a possibilidade de utilização de caracteres em locais que apenas devem receber números e vice-versa.
+>
+> 
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Páginas dispostas a testes por usuários sem ligação com a instituíção e o trabalho da PUC MINAS:
 
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
+![Página Inicial](images/home.png)
+![Entrada de Dados](images/entradadados1.png)
+![Visualização dos Dados](images/mostrardados.png)
 > 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-
-## Ferramentas de Testes (Opcional)
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
+> As funcionalidades avaliadas foram a página central de navegação que leva os usuários as outras funcionalidades na página de entrada de dados na figura 2 e a página de ver os dados na figura 3. Os testes apresentaram resultados satisfatórios sem muitos erros. 
 > 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
-
+Os testes realizados foram condizentes com o que se esperava da aplicação web, a partir do momento que as páginas estavam em funcionamento e realizando as sua funções primárias com maestria, mas ainda assim erros foram identificados na parte de obtenççao de informação visto que em algumas das partes para entrada de dados aceitam valores númericos em espaços que deveriam ser somaente para caracteres e vice-versa.
+Para a correção dos erros um update será relizado pós conclusão e apresentação do projeto para que assim o sistema possa estar em funcionamento pleno. 
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+Para criação do projeto foram utilizados sites como o [W3schools](https://www.w3schools.com/css/css3_animations.asp), os materiais didáticos fornecidos pela instituição [PucMinas](https://www.pucminas.br/destaques/Paginas/default.aspx) e contato com o gesto do hospital X.
