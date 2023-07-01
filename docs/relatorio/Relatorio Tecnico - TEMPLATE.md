@@ -299,53 +299,58 @@ Para solucionar a problemática abordada foi criada uma WebPage para tratar algu
 Para a criação deste projeto foram utilizadas algumas ferramentas como o GitHub que foi responsável por agrupar todas as informações do projeto de maneira concissa em um só lugar, a plataforma Uizard para a criação dos Wireframes, Discord para as reuniões diárias e o VirtualStudioCode para a criação dos códigos.
 Assim foi criada uam págian web utilizando ferramentas de nível mediano como o html (criar o "esqueleto" do site), css (deu cor ao site) e javasrcit (usado para fazer toda a parte do backend).
 
-
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
+![Persona 1](images/home.png)
+> Nesta parte do projeto é apresentado o tipo de navegação padrão do site feito pela barra lateral que leva o usuário as outras partes acessavéis.
+>
 > 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+
+![Persona 1](images/entradados1.png)
+> Modelo padrão de entrada de dados pelo usuário que irá ser salvo no local storage para futuras manipulações nas outras páginas.
+>
+>  
+
+
+![Persona 1](images/mostrardados.png)
+> Primeiro tipo de apresentação de dados usado na aplicação com gŕafico.
+>
+> 
+
+![Persona 1](images/mostrardados2.png)
+> Segundo tipo de apresentação de dados usado na aplicação com uma barra de pesquisa.
+>
+> 
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+......  Diagrama da Solução .......
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
+![Projeto](images/prujeto.png)
+>
+> O diagrama começa a partir da tela de login na qual os funcionários e o gestor poderão logar e ser redirecionados as suas respectivas páginas, entretanto a maior parte das funcionalidades estão voltadas para o gestor que é o foco deste estudo.
+Logo após o login o gestor terá acesso as funcionalidades de entrada de dados, visualização de dados e a manipulação dos dados que julgamos serem de maior proveito para o mesmo.
+>
 > 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
-
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
+![Teste1](images/entradadados2.png)
+![Teste2](images/teste1.png)
 
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+> Os cenários utilizados para a identificação de erros foram na parte de entrada, edição e exclusão de dados que se mostraram em alguns pontos falhos devido a possibilidade de utilização de caracteres em locais que apenas devem receber números e vice-versa.
+>
+> 
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Páginas dispostas a testes por usuários sem ligação com a instituíção e o trabalho da PUC MINAS:
 
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
+![Página Inicial](images/home.png)
+![Entrada de Dados](images/entradadados1.png)
+![Visualização dos Dados](images/mostrardados.png)
 > 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
+> As funcionalidades avaliadas foram a página central de navegação que leva os usuários as outras funcionalidades na página de entrada de dados na figura 2 e a página de ver os dados na figura 3. Os testes apresentaram resultados satisfatórios sem muitos erros. 
+> 
+
 
 ## Registros de Testes
 
