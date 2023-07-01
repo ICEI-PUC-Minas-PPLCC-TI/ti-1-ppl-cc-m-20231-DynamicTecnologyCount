@@ -249,28 +249,19 @@ Com relação ao Scrum, foram realizadas reuniões diárias tanto para produçã
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro | https://miro.com/app/board/uXjVMYD9yI0=/| 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-20231-chickcount| 
-|Hospedagem do site |  |  Não existe ainda | 
+|Hospedagem do site |  | GitHub | 
 |Protótipo Interativo | MavelApp | https://marvelapp.com/whiteboard/yRuw6FuNNw9gok27Czjw | 
 |Editor de Código| VSCode | Não existe ainda | 
 |Divisão de Tarefas| Bitrix24 | https://b24-qhhufh.bitrix24.com.br/company/personal/user/5/tasks/?secret=nkprzss3 |
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
 > 
 > As ferramentas empregadas no projeto são:
 > 
 > - Vscode: por ser uma plataforma intuitiva e de facil acesso a todos os membros do grupo. 
 > - Discord: todos os integrantes já o possuiam e portanto foi a plataforma escolhida para as reuniões.
 > - Miro e Marvel: pela sua simplicidade e intuitividade acabaram por ser escolhidos.
-> - Plataforma de hospedagem: ainda não foi decidido.
+> - Plataforma de hospedagem: GitHub.
 >
 > 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
-
 ## Controle de Versão
 
 > A ferramenta de controle de versão adotada no projeto foi o
@@ -291,10 +282,6 @@ Com relação ao Scrum, foram realizadas reuniões diárias tanto para produçã
 > - `enhancement`: uma funcionalidade precisa ser melhorada
 > - `feature`: uma nova funcionalidade precisa ser introduzida
 >
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
 >
 > **Exemplo - GitHub Feature Branch Workflow**:
 >
@@ -305,11 +292,13 @@ Com relação ao Scrum, foram realizadas reuniões diárias tanto para produçã
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para solucionar a problemática abordada foi criada uma WebPage para tratar alguns dos problemas do Gestor.
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para a criação deste projeto foram utilizadas algumas ferramentas como o GitHub que foi responsável por agrupar todas as informações do projeto de maneira concissa em um só lugar, a plataforma Uizard para a criação dos Wireframes, Discord para as reuniões diárias e o VirtualStudioCode para a criação dos códigos.
+Assim foi criada uam págian web utilizando ferramentas de nível mediano como o html (criar o "esqueleto" do site), css (deu cor ao site) e javasrcit (usado para fazer toda a parte do backend).
+
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
@@ -358,33 +347,11 @@ Com relação ao Scrum, foram realizadas reuniões diárias tanto para produçã
 > - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
 > -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 
-## Ferramentas de Testes (Opcional)
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
-
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
-
+Os testes realizados foram condizentes com o que se esperava da aplicação web, a partir do momento que as páginas estavam em funcionamento e realizando as sua funções primárias com maestria, mas ainda assim erros foram identificados na parte de obtenççao de informação visto que em algumas das partes para entrada de dados aceitam valores númericos em espaços que deveriam ser somaente para caracteres e vice-versa.
+Para a correção dos erros um update será relizado pós conclusão e apresentação do projeto para que assim o sistema possa estar em funcionamento pleno. 
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+Para criação do projeto foram utilizados sites como o [W3schools](https://www.w3schools.com/css/css3_animations.asp), os materiais didáticos fornecidos pela instituição [PucMinas](https://www.pucminas.br/destaques/Paginas/default.aspx) e contato com o gesto do hospital X.
