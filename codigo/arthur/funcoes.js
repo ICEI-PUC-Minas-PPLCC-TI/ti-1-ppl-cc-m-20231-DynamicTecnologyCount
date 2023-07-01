@@ -41,6 +41,8 @@ const media_sal_enfermeiros = salario_enfermeiros / contador_enfermeiro;
 const media_sal_tecnico = salario_tecnico / contador_tecnico;
 const gasto_total = soma_gastos_enfermeiros + soma_gastos_tecnicos;
 
+
+
 function InserirDadosCabeca() {
   
   let dado1 = document.querySelector('span.mediaenfermeiros');;
