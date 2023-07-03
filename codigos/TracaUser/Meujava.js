@@ -210,43 +210,43 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             title: 'Financeiro',
             description: 'Informações financeiras',
-            link: 'pagina1.html',
+            link: '/InfoFinancas/financias.html',
             image: 'https://conube.com.br/blog/wp-content/uploads/2017/07/Gerenciar-o-setor-financeiro-da-empresa-com-sucesso.jpg'
         },
         {
             title: 'Entrada de dados - Enfermeiros',
             description: 'Entrada de dados dos enfermeiros.',
-            link: 'pagina2.html',
+            link: '/InputEnfermeiro/index.html',
             image: 'https://fasig.com.br/wp-content/uploads/2019/03/FASIG_MARCO_TESTEIRA_BLOG_QUALIDADE_VIDA_2560x1343.png'
         },
         {
             title: 'Entrada de Dados - Pacientes',
             description: 'Entrada de dados dos pacientes',
-            link: 'pagina3.html',
+            link: '/InputPaciente/index.html',
             image: 'https://thumbs.dreamstime.com/z/ilustra%C3%A7%C3%A3o-paciente-do-vetor-cart%C3%A3o-original-de-papel-liso-informe-m%C3%A9dico-dos-desenhos-animados-com-informa%C3%A7%C3%A3o-da-sa%C3%BAde-100645046.jpg'
         },
         {
             title: 'Info- Enfermeiros',
             description: 'Informações dos enfermeiros',
-            link: 'pagina4.html',
+            link: '/InfoEnfermeiro/index.html',
             image: 'https://vivomeunegocio.com.br/vivo-b2b/wp-content/uploads/2020/05/08130207/tecnologia-na-enfermagem.jpg'
         },
         {
             title: 'Info-Pacientes',
             description: 'Comparação de dados totais',
-            link: 'pagina6.html',
+            link: '/InfoPaciente/index.html',
             image: 'https://blog.medcloud.com.br/wp-content/uploads/2020/01/telefono-inteligente-aplicacion-servicios-medicos_24877-51676-626x508.jpg'
         },
         {
             title: 'A contratar',
             description: 'Área de contratação',
-            link: 'pagina5.html',
+            link: '/InfoFinancas/contratacao.html',
             image: 'https://blog.me.com.br/wp-content/uploads/2020/03/4379-scaled-e1585676622446.jpg'
         },
         {
           title: 'Espaços',
           description: 'Áreas do hospital',
-          link: 'pagina6.html',
+          link: '/InputAreas/davi.html',
           image: 'https://static.vecteezy.com/ti/vetor-gratis/p1/3685591-exame-para-virus-cor-plana-ilustracao-clinica-diagnostico-tirando-amostras-pacientes-e-medicos-2d-cartoon-personagens-com-espaco-hospital-espaco-azul-interior-sobre-fundo-vetor.jpg'
         }
     ];
